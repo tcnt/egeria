@@ -8,7 +8,7 @@
 
     <parent>
         <artifactId>open-metadata-resources</artifactId>
-        <groupId>org.odpi.egeria</groupId>
+        <groupId>io.github.tcnt</groupId>
         <version>3.4-SNAPSHOT</version>
     </parent>
 
