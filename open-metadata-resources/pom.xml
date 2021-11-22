@@ -9,7 +9,7 @@
 
     <parent>
         <artifactId>egeria</artifactId>
-        <groupId>io.guthub.tcnt</groupId>
+        <groupId>io.github.tcnt</groupId>
         <version>3.4-SNAPSHOT</version>
     </parent>
 
