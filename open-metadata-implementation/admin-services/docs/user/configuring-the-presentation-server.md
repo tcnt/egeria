@@ -13,7 +13,7 @@ view server and then onto the metadata servers behind.  Therefore each tenant se
 metadata.
 
 Information for configuring the presentation server is provided here: 
-[https://github.com/odpi/egeria-react-ui](https://github.com/odpi/egeria-react-ui).
+[https://github.com/tcnt/egeria-react-ui](https://github.com/tcnt/egeria-react-ui).
 
 
 ----

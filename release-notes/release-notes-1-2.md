@@ -19,8 +19,8 @@ Below are the highlights:
   These are:
      * The [JanusGraph metadata repository](../open-metadata-implementation/adapters/open-connectors/repository-services-connectors/open-metadata-collection-store-connectors/graph-repository-connector).
      * The [In-memory metadata repository](../open-metadata-implementation/adapters/open-connectors/repository-services-connectors/open-metadata-collection-store-connectors/inmemory-repository-connector) used for testing and demos.
-     * The [Apache Atlas repository proxy](https://github.com/odpi/egeria-connector-apache-atlas).
-     * The [IBM Information Governance Catalog repository proxy](https://github.com/odpi/egeria-connector-ibm-information-server).
+     * The [Apache Atlas repository proxy](https://github.com/tcnt/egeria-connector-apache-atlas).
+     * The [IBM Information Governance Catalog repository proxy](https://github.com/tcnt/egeria-connector-ibm-information-server).
 
 * There are new access services to support the cataloging of assets:
    * The [Asset Consumer OMAS](../open-metadata-implementation/access-services/asset-consumer) supports the access to both the data and metadata associated with an asset.

@@ -1,10 +1,10 @@
 <!-- SPDX-License-Identifier: CC-BY-4.0 -->
 <!-- Copyright Contributors to the ODPi Egeria project. -->
 
-![Egeria Logo](https://github.com/odpi/egeria/raw/master/assets/img/egeria3.png)
+![Egeria Logo](https://github.com/tcnt/egeria/raw/master/assets/img/egeria3.png)
 
 [![GitHub](https://img.shields.io/github/license/odpi/egeria)](LICENSE)
-[![Maven Central](https://img.shields.io/maven-central/v/org.odpi.egeria/egeria)](https://mvnrepository.com/artifact/org.odpi.egeria)
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.tcnt/egeria)](https://mvnrepository.com/artifact/io.github.tcnt)
 [![Azure](https://dev.azure.com/ODPi/Egeria/_apis/build/status/Egeria/Egeria%20-%20Merge?branchName=master)](https://dev.azure.com/odpi/Egeria/_build)
 
 # Egeria - Open Metadata and Governance
@@ -15,14 +15,14 @@ engines and platforms to exchange metadata in order to get the best
 value from data whilst ensuring it is properly governed.
 
 * [Egeria Home Page](https://egeria.odpi.org)
-* [Github](https://github.com/odpi/egeria)
+* [Github](https://github.com/tcnt/egeria)
 * [Slack discussions](https://slack.lfai.foundation)
 
 ## Image: egeria
 
 This *nix based image contains all the required runtime artifacts for egeria - for example the main server chassis, the user interface, required dependencies etc.
 
-Specifically it contains the full [egeria assembly](https://github.com/odpi/egeria/blob/master/open-metadata-distribution/open-metadata-assemblies/src/main/assemblies/egeria-omag.xml)
+Specifically it contains the full [egeria assembly](https://github.com/tcnt/egeria/blob/master/open-metadata-distribution/open-metadata-assemblies/src/main/assemblies/egeria-omag.xml)
 
 ## Using this image as part of our Lab Tutorials
 
@@ -33,7 +33,7 @@ egeria. The environments documented there will allow you to get an example envir
 
 ## Build Information
 * [Build pipeline](https://dev.azure.com/ODPi/Egeria/_build?definitionId=12&_a=summary)
-* [Source](https://github.com/odpi/egeria/tree/master/open-metadata-resources/open-metadata-deployment/docker/egeria)
+* [Source](https://github.com/tcnt/egeria/tree/master/open-metadata-resources/open-metadata-deployment/docker/egeria)
 
 ## Useage
 
@@ -155,7 +155,7 @@ INFO exec  java -XX:+UseParallelOldGC -XX:MinHeapFreeRatio=10 -XX:MaxHeapFreeRat
 Note that you'll be able to see the image version, build date, last git update etc (this is an old example from 1.6, when we used http & port 8080)
 ```
 $ docker inspect --format='{{range $k, $v := .ContainerConfig.Labels}} {{- printf "%s = \"%s\"\n" $k $v -}} {{end}}' odpi/egeria:latest
-org.opencontainers.image.vendor = "= ODPi       org.opencontainers.image.title = Egeria       org.opencontainers.image.description = Common image for core ODPi Egeria runtime.       org.opencontainers.image.url = https://egeria.odpi.org/       org.opencontainers.image.source = https://github.com/odpi/egeria       org.opencontainers.image.authors = ODPi Egeria       org.opencontainers.image.revision = 2e8b97d       org.opencontainers.image.licenses = Apache-2.0       org.opencontainers.image.created = 2020-03-25T12:03:52+0000       org.opencontainers.image.version = 1.6-SNAPSHOT       org.opencontainers.image.documentation = https://egeria.odpi.org/open-metadata-resources/open-metadata-deployment/docker/egeria/       org.opencontainers.image.ext.vcs-date = 2020-03-25T11:46:50+0000       org.opencontainers.image.ext.docker.cmd = docker run -d -p 8080:8080 odpi/egeria       org.opencontainers.image.ext.docker.cmd.devel = docker run -d -p 8080:8080 -p 5005:5005 -e JAVA_DEBUG=true odpi/egeria       org.opencontainers.image.ext.docker.debug = docker exec -it  /bin/sh       org.opencontainers.image.ext.docker.params = JAVA_DEBUG=set to true to enable JVM debugging"
+org.opencontainers.image.vendor = "= ODPi       org.opencontainers.image.title = Egeria       org.opencontainers.image.description = Common image for core ODPi Egeria runtime.       org.opencontainers.image.url = https://egeria.odpi.org/       org.opencontainers.image.source = https://github.com/tcnt/egeria       org.opencontainers.image.authors = ODPi Egeria       org.opencontainers.image.revision = 2e8b97d       org.opencontainers.image.licenses = Apache-2.0       org.opencontainers.image.created = 2020-03-25T12:03:52+0000       org.opencontainers.image.version = 1.6-SNAPSHOT       org.opencontainers.image.documentation = https://egeria.odpi.org/open-metadata-resources/open-metadata-deployment/docker/egeria/       org.opencontainers.image.ext.vcs-date = 2020-03-25T11:46:50+0000       org.opencontainers.image.ext.docker.cmd = docker run -d -p 8080:8080 odpi/egeria       org.opencontainers.image.ext.docker.cmd.devel = docker run -d -p 8080:8080 -p 5005:5005 -e JAVA_DEBUG=true odpi/egeria       org.opencontainers.image.ext.docker.debug = docker exec -it  /bin/sh       org.opencontainers.image.ext.docker.params = JAVA_DEBUG=set to true to enable JVM debugging"
 
 ```
 

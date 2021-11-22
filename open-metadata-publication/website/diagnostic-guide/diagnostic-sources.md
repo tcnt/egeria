@@ -45,14 +45,14 @@ Specifically they are:
   [More Information ...](diagnostic-apis.md)
 
 * **Egeria UIs** - The Egeria UIs help to visualize the state of the repositories and the Egeria Ecosystem.
-  [More Information ...](https://github.com/odpi/egeria-react-ui)
+  [More Information ...](https://github.com/tcnt/egeria-react-ui)
 
 * **Source Code** - The Egeria source code can help you determine exactly how a capability is implemented (or not).
   It is available on GitHub.  The primary repository is
-  [https://github.com/odpi/egeria](https://github.com/odpi/egeria).
+  [https://github.com/tcnt/egeria](https://github.com/tcnt/egeria).
 
 * **Egeria Community** - If you are completely stuck, or believe there is a bug in the Egeria content,
-  You can [raise an issue](https://github.com/odpi/egeria/issues) that describes the problem you are seeing,
+  You can [raise an issue](https://github.com/tcnt/egeria/issues) that describes the problem you are seeing,
   a description of your runtime topology, the diagnostics you have collected, the conclusions you have come to
   and the help that you need.
   More information on the Egeria community can be found [here](../../../Community-Guide.md).

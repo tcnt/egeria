@@ -9,16 +9,16 @@
 
     <parent>
         <artifactId>governance-action</artifactId>
-        <groupId>org.odpi.egeria</groupId>
+        <groupId>io.github.tcnt</groupId>
         <version>3.4-SNAPSHOT</version>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
 
     <scm>
-        <connection>scm:git:git://github.com/odpi/egeria.git</connection>
-        <developerConnection>scm:git:ssh://github.com/odpi/egeria.git</developerConnection>
-        <url>http://github.com/odpi/egeria/tree/master</url>
+        <connection>scm:git:git://github.com/tcnt/egeria.git</connection>
+        <developerConnection>scm:git:ssh://github.com/tcnt/egeria.git</developerConnection>
+        <url>http://github.com/tcnt/egeria/tree/master</url>
     </scm>
 
     <name>Governance Action OMES with Spring</name>
@@ -37,12 +37,12 @@
         </dependency>
 
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>governance-action-api</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>governance-action-server</artifactId>
         </dependency>
 

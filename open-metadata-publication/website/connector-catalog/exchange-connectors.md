@@ -43,7 +43,7 @@ The database integration connectors run in the
 [Database Integrator Open Metadata Integration Service (OMIS)](../../../open-metadata-implementation/integration-services/database-integrator)
 hosted in the [Integration Daemon](../../../open-metadata-implementation/admin-services/docs/concepts/integration-daemon.md).
 
-* The [PostgreSQL database integration connector](https://github.com/odpi/egeria-database-connectors/tree/main/postgres-connector)
+* The [PostgreSQL database integration connector](https://github.com/tcnt/egeria-database-connectors/tree/main/postgres-connector)
   automatically maintains the open metadata instances for the databases hosted on a [PostgreSQL server](https://www.postgresql.org).
   This includes the database schemas, tables, columns, primary keys and foreign keys.
 
@@ -69,7 +69,7 @@ that uses a particular type of store within an Egeria [Metadata Server](../../..
 * The [JanusGraph OMRS Repository Connector](../../../open-metadata-implementation/adapters/open-connectors/repository-services-connectors/open-metadata-collection-store-connectors/graph-repository-connector)
   provides a native repository for a [Metadata Server](../../../open-metadata-implementation/admin-services/docs/concepts/metadata-server.md).
   
-* The [CRUX OMRS Repository Connector](https://github.com/odpi/egeria-connector-crux)
+* The [CRUX OMRS Repository Connector](https://github.com/tcnt/egeria-connector-crux)
   provides a native repository for a [Metadata Server](../../../open-metadata-implementation/admin-services/docs/concepts/metadata-server.md) that supports historical queries.
   
 * The [In-memory OMRS Repository Connector](../../../open-metadata-implementation/adapters/open-connectors/repository-services-connectors/open-metadata-collection-store-connectors/inmemory-repository-connector)
@@ -90,21 +90,21 @@ that uses a particular type of store within an Egeria [Metadata Server](../../..
 ![Figure 3](adapter-repository-connector.png)
 > **Figure 3:** Repository connector and optional event mapper supporting an adapter to a third party metadata catalog
 
-* The [Apache Atlas OMRS Repository Connectors](https://github.com/odpi/egeria-connector-hadoop-ecosystem) 
+* The [Apache Atlas OMRS Repository Connectors](https://github.com/tcnt/egeria-connector-hadoop-ecosystem) 
   implements read-only connectivity to the Apache Atlas metadata repository.
   
-* The [IBM Information Governance Catalog (IGC) OMRS Repository Connector](https://github.com/odpi/egeria-connector-ibm-information-server)
+* The [IBM Information Governance Catalog (IGC) OMRS Repository Connector](https://github.com/tcnt/egeria-connector-ibm-information-server)
   implements read-only connectivity to the metadata repository within the 
   [IBM InfoSphere Information Server](https://www.ibm.com/analytics/information-server) suite.
 
-* The [SAS Viya OMRS Repository Connector](https://github.com/odpi/egeria-connector-sas-viya)
+* The [SAS Viya OMRS Repository Connector](https://github.com/tcnt/egeria-connector-sas-viya)
   implements metadata exchange to the metadata repository within the 
   [SAS Viya Platform](https://support.sas.com/en/software/sas-viya.html).
   
 The definition of the connector interfaces for these connectors is
 defined in the [repository-services-api](../../../open-metadata-implementation/repository-services/repository-services-apis) module
 in the
-[org.odpi.openmetadata.repositoryservices.connectors.stores.metadatacollectionstore](https://github.com/odpi/egeria/tree/master/open-metadata-implementation/repository-services/repository-services-apis/src/main/java/org/odpi/openmetadata/repositoryservices/connectors/stores/metadatacollectionstore) Java package.
+[org.odpi.openmetadata.repositoryservices.connectors.stores.metadatacollectionstore](https://github.com/tcnt/egeria/tree/master/open-metadata-implementation/repository-services/repository-services-apis/src/main/java/org/odpi/openmetadata/repositoryservices/connectors/stores/metadatacollectionstore) Java package.
 
 
 ## Open Discovery Services
@@ -131,7 +131,7 @@ along with a guide on how to write a discovery service.
 The definition of the connector interfaces for discovery services is
 defined in the [open-discovery-services](../../../open-metadata-implementation/frameworks/open-discovery-framework) module
 in the
-[org.odpi.openmetadata.frameworks.discovery](https://github.com/odpi/egeria/tree/master/open-metadata-implementation/frameworks/open-discovery-framework/src/main/java/org/odpi/openmetadata/frameworks/discovery) Java package.
+[org.odpi.openmetadata.frameworks.discovery](https://github.com/tcnt/egeria/tree/master/open-metadata-implementation/frameworks/open-discovery-framework/src/main/java/org/odpi/openmetadata/frameworks/discovery) Java package.
    
 
 ## Governance Action Services
@@ -165,7 +165,7 @@ hosted by the
 The definition of the connector interfaces for governance action services is
 defined in the [governance-action-framework](../../../open-metadata-implementation/frameworks/governance-action-framework) module
 in the
-[org.odpi.openmetadata.frameworks.governanceaction](https://github.com/odpi/egeria/tree/master/open-metadata-implementation/frameworks/governance-action-framework/src/main/java/org/odpi/openmetadata/frameworks/governanceaction) Java package.
+[org.odpi.openmetadata.frameworks.governanceaction](https://github.com/tcnt/egeria/tree/master/open-metadata-implementation/frameworks/governance-action-framework/src/main/java/org/odpi/openmetadata/frameworks/governanceaction) Java package.
    
 
 

@@ -51,8 +51,8 @@ $ git remote -v
 
 origin https://github.com/USER/egeria (fetch)
 origin https://github.com/USER/egeria (push)
-upstream https://github.com/odpi/egeria.git (fetch)
-upstream https://github.com/odpi/egeria.git (push)
+upstream https://github.com/tcnt/egeria.git (fetch)
+upstream https://github.com/tcnt/egeria.git (push)
 
 ```
 

@@ -44,7 +44,7 @@ Maven can be installed:
   
 **Git** is an open source version control system used to store and manage Egeria's files.
 You need it installed on your machine to work with Egeria's git repositories stored on
-[GitHub](https://github.com/odpi/egeria).
+[GitHub](https://github.com/tcnt/egeria).
 You can check whether it is installed on your system by running `git --version` from the command-line.
 
 

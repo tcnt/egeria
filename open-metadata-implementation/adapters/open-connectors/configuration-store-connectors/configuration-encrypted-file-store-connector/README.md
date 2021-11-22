@@ -3,7 +3,7 @@
   
 ![Released](../../../../../open-metadata-publication/website/images/egeria-content-status-released.png#pagewidth)
 
-[![javadoc](https://javadoc.io/badge2/org.odpi.egeria/configuration-encrypted-file-store-connector/javadoc.svg)](https://javadoc.io/doc/org.odpi.egeria/configuration-encrypted-file-store-connector)
+[![javadoc](https://javadoc.io/badge2/io.github.tcnt/configuration-encrypted-file-store-connector/javadoc.svg)](https://javadoc.io/doc/io.github.tcnt/configuration-encrypted-file-store-connector)
 
 # Encrypted Configuration File Store Connector
 

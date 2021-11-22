@@ -7,8 +7,8 @@
  * A new Presentation Server User interface has been added, making use of [React](https://reactjs.org/) & [Carbon](https://www.carbondesignsystem.com/) 
    - Presentation Server is still in development
    - For developers not contributing to Presentation Server, running in a container under Kubernetes or docker-compose is the easiest way to get started
-   - See the last section of the [Presentation Server README](https://github.com/odpi/egeria/tree/egeria-release-2.3/open-metadata-implementation/user-interfaces/presentation-server) for instructions on running Presentation Server
-   - For contributors, The [Presentation Server README](https://github.com/odpi/egeria/tree/egeria-release-2.3/open-metadata-implementation/user-interfaces/presentation-server) also documents 'Configuring the Presentation Server' - this is done automatically in our k8s/compose environment. However
+   - See the last section of the [Presentation Server README](https://github.com/tcnt/egeria/tree/egeria-release-2.3/open-metadata-implementation/user-interfaces/presentation-server) for instructions on running Presentation Server
+   - For contributors, The [Presentation Server README](https://github.com/tcnt/egeria/tree/egeria-release-2.3/open-metadata-implementation/user-interfaces/presentation-server) also documents 'Configuring the Presentation Server' - this is done automatically in our k8s/compose environment. However
      if doing this manually note (4th point) that the environment variable is called `EGERIA_PRESENTATIONSERVER_SERVER_<ui server name>` where
      the `<ui server name>` is the tenant's serverName.. The examples in the document are correct.
  * The Dino User Interface for presentation server now allows an Egeria operations user to display a graph and details of Egeria resources including
@@ -21,10 +21,10 @@
 
 ## Known Issues
  * Several maven artifacts have not been published to maven central/JCenter. See issue #3675 They can be retrieved from JFrog Artifactory at 'https://odpi.jfrog.io/odpi/egeria-release-local' if needed and it is not possible to build locally.
-   - org.odpi.egeria:presentation-server
-   - org.odpi.egeria:subject-area-fvt
-   - org.odpi.egeria:dev-ops-api
-   - org.odpi.egeria:digital-service-spring
+   - io.github.tcnt:presentation-server
+   - io.github.tcnt:subject-area-fvt
+   - io.github.tcnt:dev-ops-api
+   - io.github.tcnt:digital-service-spring
    
 ## Dependencies
  * Spring has been updated to 2.3.9

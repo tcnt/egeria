@@ -118,7 +118,7 @@ If you would like to browse to see what is available then these pages may be of 
 
 The following articles may answer additional questions that you have.
 
-* [Where is the code?](https://github.com/odpi/egeria) - link to GitHub.
+* [Where is the code?](https://github.com/tcnt/egeria) - link to GitHub.
 * [Who is contributing?](https://lfanalytics.io/projects/odpi%2Fegeria/dashboard) - see the project activity by logging
   in with your GitHub Account.
 * [How do I join the mailing list?](https://lists.lfaidata.foundation/g/egeria-technical-discuss/topics) - go to the sign up page.
@@ -128,7 +128,7 @@ The following articles may answer additional questions that you have.
 * [How do I run Egeria?](open-metadata-resources/open-metadata-tutorials) - try our getting started tutorials and labs.
 * [Where is the design documentation?](open-metadata-implementation) - dig deeper into the code.
 * [Where are the open metadata specifications?](open-metadata-publication/website/open-metadata-specifications) - learn how Egeria is both supporting and providing standards.
-* [How do I raise a bug or feature request?](https://github.com/odpi/egeria/issues) - create a GitHub Issue to get help.
+* [How do I raise a bug or feature request?](https://github.com/tcnt/egeria/issues) - create a GitHub Issue to get help.
 * [How do I integrate my metadata repository into the open metadata ecosystem?](open-metadata-publication/website/open-metadata-integration-patterns) - understand the options.
 * [How do I test that a technology is conformant with the open metadata specifications?](open-metadata-conformance-suite) - learn how to run the conformance suite.
 * [How is the egeria project content organized?](Content-Organization.md) - see the site structure.

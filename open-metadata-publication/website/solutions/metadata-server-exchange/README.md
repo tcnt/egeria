@@ -43,8 +43,8 @@ You can create your own implementation of the repository connectors for your fav
 using [these instructions](https://wiki.lfaidata.foundation/display/EG/Implement+an+Open+Metadata+Repository+Connector).
 Alternatively Egeria provides repository connector implementations for two third party metadata servers:
 
-  * [IBM Information Governance Catalog (IGC)](https://github.com/odpi/egeria-connector-ibm-information-server)
-  * [Apache Atlas](https://github.com/odpi/egeria-connector-hadoop-ecosystem)
+  * [IBM Information Governance Catalog (IGC)](https://github.com/tcnt/egeria-connector-ibm-information-server)
+  * [Apache Atlas](https://github.com/tcnt/egeria-connector-hadoop-ecosystem)
 
 We will use these implementations to illustrate the metadata server exchange solution.
 We are also assuming that in this example, glossary terms are being maintained in IGC and the organization
@@ -182,8 +182,8 @@ including information on how to configure them.  Specifically
 
 There is also specific configuration information for the IBM Information Governance catalog (IGC) and Apache Atlas
   setup below:
-  * [IBM Information Governance Catalog (IGC)](https://github.com/odpi/egeria-connector-ibm-information-server)
-  * [Apache Atlas](https://github.com/odpi/egeria-connector-hadoop-ecosystem)
+  * [IBM Information Governance Catalog (IGC)](https://github.com/tcnt/egeria-connector-ibm-information-server)
+  * [Apache Atlas](https://github.com/tcnt/egeria-connector-hadoop-ecosystem)
   
 These are links to more information about cohorts
 * [Operation of the Open Metadata Repository Cohort](../../../../open-metadata-implementation/repository-services/docs/open-metadata-repository-cohort.md)

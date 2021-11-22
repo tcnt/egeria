@@ -5,7 +5,7 @@
 
 If you are asked to review a code change it will be located
 in a Pull Request (PR) on one of Egeria's git repositories 
-[(link to main repository as an example)](https://github.com/odpi/egeria/pulls).
+[(link to main repository as an example)](https://github.com/tcnt/egeria/pulls).
 
 Within the pull requests are a number of commits that describe the changes to particular
 files that will be made when the pull request is merged into

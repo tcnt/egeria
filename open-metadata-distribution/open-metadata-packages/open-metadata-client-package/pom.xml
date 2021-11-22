@@ -9,7 +9,7 @@
 
     <parent>
         <artifactId>open-metadata-packages</artifactId>
-        <groupId>org.odpi.egeria</groupId>
+        <groupId>io.github.tcnt</groupId>
         <version>3.4-SNAPSHOT</version>
     </parent>
 
@@ -21,9 +21,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <scm>
-        <connection>scm:git:git://github.com/odpi/egeria.git</connection>
-        <developerConnection>scm:git:ssh://github.com/odpi/egeria.git</developerConnection>
-        <url>http://github.com/odpi/egeria/tree/master</url>
+        <connection>scm:git:git://github.com/tcnt/egeria.git</connection>
+        <developerConnection>scm:git:ssh://github.com/tcnt/egeria.git</developerConnection>
+        <url>http://github.com/tcnt/egeria/tree/master</url>
     </scm>
 
     <packaging>pom</packaging>
@@ -32,159 +32,159 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>admin-services-client</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>analytics-modeling-client</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>asset-catalog-client</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>asset-consumer-client</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>asset-owner-client</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>asset-manager-client</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>community-profile-client</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>digital-architecture-client</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>it-infrastructure-client</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>data-engine-client</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>data-manager-client</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>data-privacy-client</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>design-model-client</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>data-science-client</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>dev-ops-client</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>discovery-engine-client</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>governance-engine-client</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>governance-program-client</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>project-management-client</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>security-officer-client</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>software-developer-client</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>stewardship-action-client</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>subject-area-client</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>analytics-integrator-client</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>api-integrator-client</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>catalog-integrator-client</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>database-integrator-client</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>display-integrator-client</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>files-integrator-client</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>lineage-integrator-client</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>organization-integrator-client</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>security-integrator-client</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>topic-integrator-client</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>integration-daemon-services-client</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>asset-analysis-client</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>governance-action-client</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>engine-host-services-client</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>repository-services-client</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>platform-services-client</artifactId>
         </dependency>
     </dependencies>

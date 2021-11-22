@@ -14,7 +14,7 @@ project_lead: &odpi_releng_ptl
 primary_contact: *odpi_egeria_ptl
 issue_tracking:
     type: 'github'
-    url: 'https://github.com/odpi/egeria/issues'
+    url: 'https://github.com/tcnt/egeria/issues'
     key: 'egeria'
 mailing_list:
     type: 'other'
@@ -25,7 +25,7 @@ realtime_discussion:
     url: 'https://lfaifoundation.slack.com'
 meetings:
     - type: 'zoom'
-      agenda: 'https://github.com/odpi/egeria/wiki'
+      agenda: 'https://github.com/tcnt/egeria/wiki'
       url: 'https://zoom.us/j/150810490'
       server: 'n/a'
       channel: 'n/a'

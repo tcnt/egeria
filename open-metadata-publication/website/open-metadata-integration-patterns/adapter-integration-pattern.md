@@ -46,8 +46,8 @@ The development steps to implement the Adapter integration pattern are:
   
 There are two examples of this integration pattern implemented in Egeria.
 
-* An integration for the [IBM Information Governance Catalog](https://github.com/odpi/egeria-connector-ibm-information-server).
-* An integration for [Apache Atlas](https://github.com/odpi/egeria-connector-apache-atlas)
+* An integration for the [IBM Information Governance Catalog](https://github.com/tcnt/egeria-connector-ibm-information-server).
+* An integration for [Apache Atlas](https://github.com/tcnt/egeria-connector-apache-atlas)
 
 More information on running a repository proxy can be found in the
 [Administration Services Documentation](../../../open-metadata-implementation/admin-services/docs/concepts/repository-proxy.md).

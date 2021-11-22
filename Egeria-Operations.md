@@ -37,7 +37,7 @@ All participants in the Egeria community are bound by the project's
 As a member you are able to attend our meetings, just to listen, or to play an active part in the discussion.
 The online meetings are recorded to allow community members to catch up if they are not able to attend the live meeting.
 When you attend the community meetings specifically, your name will be recorded in the meeting minutes along with any remarks or suggestions you make.
-The agenda and minutes of our community meetings are publicly available on the [Egeria wiki](https://github.com/odpi/egeria/wiki).
+The agenda and minutes of our community meetings are publicly available on the [Egeria wiki](https://github.com/tcnt/egeria/wiki).
 
 A member may make contributions to the Egeria content by submitting a
 GitHub pull request on the appropriate Git repository.
@@ -142,9 +142,9 @@ for more general discussion.
 
 ## Egeria content management tools
 
-The Egeria content is managed in GitHub under [https://github.com/odpi/egeria](https://github.com/odpi/egeria).
+The Egeria content is managed in GitHub under [https://github.com/tcnt/egeria](https://github.com/tcnt/egeria).
 It may be developed using patches, branches from master, or forks/git pull requests.
-Each change should have a [GitHub issue](https://github.com/odpi/egeria/issues) explaining why the change is being made.
+Each change should have a [GitHub issue](https://github.com/tcnt/egeria/issues) explaining why the change is being made.
 The new or updated content should follow the Egeria
 [developer guidelines](https://egeria.odpi.org/developer-resources/Developer-Guidelines).
 
@@ -171,7 +171,7 @@ be resolved by voting. The voting process is a simple majority in which each mai
 
 ----
 * Return to [Egeria's Home Page](https://egeria.odpi.org)
-* Return to [Egeria's GitHub Top-level](https://github.com/odpi/egeria)
+* Return to [Egeria's GitHub Top-level](https://github.com/tcnt/egeria)
 
 
 * Link to [Egeria's Community Guide](Community-Guide.md)

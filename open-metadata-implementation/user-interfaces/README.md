@@ -14,10 +14,10 @@ particularly for a larger organization.
 There are 2 User Interfaces :
 
 * The **[Presentation Server](../admin-services/docs/concepts/presentation-server.md)** is a multi-tenant server that serves a user interface - it issues rest calls downstream primarily to view
-  servers. All the code for the Presentation Server has been moved to [Egeria React UI Git repository](https://github.com/odpi/egeria-react-ui)
+  servers. All the code for the Presentation Server has been moved to [Egeria React UI Git repository](https://github.com/tcnt/egeria-react-ui)
 
 *  [UI Application](ui-chassis) the user interface platform. The Server side of the user interface is maintained in the [ui-chassis](ui-chassis) module.
-The client side has been moved to [Egeria UI Git repository](https://github.com/odpi/egeria-ui)
+The client side has been moved to [Egeria UI Git repository](https://github.com/tcnt/egeria-ui)
 
 
 ----

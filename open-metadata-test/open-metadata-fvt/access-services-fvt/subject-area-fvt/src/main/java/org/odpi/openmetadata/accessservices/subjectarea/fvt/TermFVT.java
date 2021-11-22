@@ -180,7 +180,7 @@ public class TermFVT {
         if (updatedTerm3.getGovernanceClassifications().getRetention() !=null) {
             throw new SubjectAreaFVTCheckedException("ERROR: Governance actions retention not null as expected");
         }
-        // https://github.com/odpi/egeria/issues/3457  the below line when uncommented causes an error with the graph repo.
+        // https://github.com/tcnt/egeria/issues/3457  the below line when uncommented causes an error with the graph repo.
 //        if (updatedTerm3.getGovernanceActions().getCriticality().getLevel() !=null) {
 //            throw new SubjectAreaFVTCheckedException("ERROR: Governance actions criticality not returned as expected. It is " + updatedTerm3.getGovernanceActions().getCriticality().getLevel().getName());
 //        }

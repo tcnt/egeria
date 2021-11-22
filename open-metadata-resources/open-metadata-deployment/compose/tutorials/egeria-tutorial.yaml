@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 # Copyright Contributors to the Egeria project
 
-# This is now deprecated. Refer to our Kubernetes charts at https://github.com/odpi/egeria-charts
+# This is now deprecated. Refer to our Kubernetes charts at https://github.com/tcnt/egeria-charts
 
 # To run
 #   * Ensure Docker is installed

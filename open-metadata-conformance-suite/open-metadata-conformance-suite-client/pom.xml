@@ -9,7 +9,7 @@
 
     <parent>
         <artifactId>open-metadata-conformance-suite</artifactId>
-        <groupId>org.odpi.egeria</groupId>
+        <groupId>io.github.tcnt</groupId>
         <version>3.4-SNAPSHOT</version>
     </parent>
 
@@ -21,9 +21,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <scm>
-        <connection>scm:git:git://github.com/odpi/egeria.git</connection>
-        <developerConnection>scm:git:ssh://github.com/odpi/egeria.git</developerConnection>
-        <url>http://github.com/odpi/egeria/tree/master</url>
+        <connection>scm:git:git://github.com/tcnt/egeria.git</connection>
+        <developerConnection>scm:git:ssh://github.com/tcnt/egeria.git</developerConnection>
+        <url>http://github.com/tcnt/egeria/tree/master</url>
     </scm>
 
     <artifactId>open-metadata-conformance-suite-client</artifactId>
@@ -31,22 +31,22 @@
     <dependencies>
 
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>open-metadata-conformance-suite-api</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>rest-client-connectors-api</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>rest-client-factory</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>http-helper</artifactId>
         </dependency>
 

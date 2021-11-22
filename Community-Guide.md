@@ -67,14 +67,14 @@ Below are links to websites and other resources for Egeria.
 The Egeria project used [GitHub](https://github.com/odpi)
 to maintain its content.  It has the following repositories:
 
-* [egeria](https://github.com/odpi/egeria) - contains the core Egeria function along with samples, tutorials and documentation.
-* [egeria-connector-hadoop-ecosystem](https://github.com/odpi/egeria-connector-hadoop-ecosystem) - contains connectors to integrate
+* [egeria](https://github.com/tcnt/egeria) - contains the core Egeria function along with samples, tutorials and documentation.
+* [egeria-connector-hadoop-ecosystem](https://github.com/tcnt/egeria-connector-hadoop-ecosystem) - contains connectors to integrate
 technologies from the hadoop ecosystem into the open metadata ecosystem.
-* [egeria-connector-ibm-information-server](https://github.com/odpi/egeria-connector-ibm-information-server) - contains connectors to integrate IBM Information Server into the open metadata ecosystem.
+* [egeria-connector-ibm-information-server](https://github.com/tcnt/egeria-connector-ibm-information-server) - contains connectors to integrate IBM Information Server into the open metadata ecosystem.
 * [data-governance](https://github.com/odpi/data-governance) - contains Egeria's Guidance on Governance (GoG) as well as
 large media files such as presentations and movies.
-* [egeria-dev-projects](https://github.com/odpi/egeria-dev-projects) - contains fun projects for developers to help them learn about the Egeria technology.
-* [egeria-palisade](https://github.com/odpi/egeria-palisade) - contains content from the collaboration between
+* [egeria-dev-projects](https://github.com/tcnt/egeria-dev-projects) - contains fun projects for developers to help them learn about the Egeria technology.
+* [egeria-palisade](https://github.com/tcnt/egeria-palisade) - contains content from the collaboration between
 the Egeria project and the [Palisade](https://github.com/gchq/palisade) project.
 
 All of these repositories are publicly visible.  However, if you want to contribute new content then you need
@@ -107,7 +107,7 @@ Note the username and password you selected.
 
 ----
 * Return to [Egeria's Home Page](https://egeria.odpi.org)
-* Return to [Egeria's GitHub Top-level](https://github.com/odpi/egeria)
+* Return to [Egeria's GitHub Top-level](https://github.com/tcnt/egeria)
 
 
 * Link to [Egeria's Operations Guide](Egeria-Operations.md)

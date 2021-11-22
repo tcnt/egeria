@@ -9,16 +9,16 @@
 
     <parent>
         <artifactId>asset-consumer</artifactId>
-        <groupId>org.odpi.egeria</groupId>
+        <groupId>io.github.tcnt</groupId>
         <version>3.4-SNAPSHOT</version>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
 
     <scm>
-        <connection>scm:git:git://github.com/odpi/egeria.git</connection>
-        <developerConnection>scm:git:ssh://github.com/odpi/egeria.git</developerConnection>
-        <url>http://github.com/odpi/egeria/tree/master</url>
+        <connection>scm:git:git://github.com/tcnt/egeria.git</connection>
+        <developerConnection>scm:git:ssh://github.com/tcnt/egeria.git</developerConnection>
+        <url>http://github.com/tcnt/egeria/tree/master</url>
     </scm>
 
     <name>Asset Consumer OMAS Client</name>
@@ -31,38 +31,38 @@
     <dependencies>
 
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>asset-consumer-api</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>asset-consumer-topic-connectors</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>ocf-metadata-api</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>ffdc-services</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>open-connector-framework</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>audit-log-framework</artifactId>
         </dependency>
 
         <!-- Asset Consumer is built on Connected Asset -->
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>ocf-metadata-client</artifactId>
         </dependency>
 

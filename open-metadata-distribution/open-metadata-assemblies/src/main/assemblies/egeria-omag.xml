@@ -34,7 +34,7 @@
             <useAllReactorProjects>true</useAllReactorProjects>
             <!-- We only pick from this module (submodules included by default) -->
             <includes>
-                <include>org.odpi.egeria:server-chassis-spring:*</include>
+                <include>io.github.tcnt:server-chassis-spring:*</include>
                 <include>com.fasterxml.jackson.datatype:jackson-datatype-jsr310:*</include>
             </includes>
             <!-- Choose the binaries (ie jars) to includes - in this case keeping as a jar -->
@@ -53,35 +53,35 @@
             <!-- Get ALL our connectors. Hadoop skipped for now.  TODO: review list.  -->
             <!-- avoiding wildcards means build warnings if a pattern isn't used - helpful for identifying errors -->
             <includes>
-                <include>org.odpi.egeria:audit-log-console-connector:*</include>
-                <include>org.odpi.egeria:audit-log-event-topic-connector:*</include>
-                <include>org.odpi.egeria:audit-log-file-connector:*</include>
-                <include>org.odpi.egeria:audit-log-slf4j-connector:*</include>
-                <include>org.odpi.egeria:avro-file-connector:*</include>
-                <include>org.odpi.egeria:basic-file-connector:*</include>
-                <include>org.odpi.egeria:cohort-registry-file-store-connector:*</include>
-                <include>org.odpi.egeria:configuration-encrypted-file-store-connector:*</include>
-                <include>org.odpi.egeria:configuration-file-store-connector:*</include>
-                <include>org.odpi.egeria:csv-file-connector:*</include>
-                <include>org.odpi.egeria:data-folder-connector:*</include>
-                <include>org.odpi.egeria:discovery-service-connectors:*</include>
-                <include>org.odpi.egeria:governance-action-connectors:*</include>
-                <include>org.odpi.egeria:files-integration-connectors:*</include>
-                <include>org.odpi.egeria:kafka-integration-connector:*</include>
-                <include>org.odpi.egeria:openapi-integration-connector:*</include>
-                <include>org.odpi.egeria:openlineage-integration-connectors:*</include>
-                <include>org.odpi.egeria:inmemory-open-metadata-topic-connector:*</include>
-                <include>org.odpi.egeria:inmemory-repository-connector:*</include>
-                <include>org.odpi.egeria:kafka-open-metadata-topic-connector:*</include>
-                <include>org.odpi.egeria:omrs-rest-repository-connector:*</include>
-                <include>org.odpi.egeria:open-lineage-janus-connector:*</include>
-                <include>org.odpi.egeria:elasticsearch-integration-connector:*</include>
-                <include>org.odpi.egeria:open-metadata-archive-file-connector:*</include>
+                <include>io.github.tcnt:audit-log-console-connector:*</include>
+                <include>io.github.tcnt:audit-log-event-topic-connector:*</include>
+                <include>io.github.tcnt:audit-log-file-connector:*</include>
+                <include>io.github.tcnt:audit-log-slf4j-connector:*</include>
+                <include>io.github.tcnt:avro-file-connector:*</include>
+                <include>io.github.tcnt:basic-file-connector:*</include>
+                <include>io.github.tcnt:cohort-registry-file-store-connector:*</include>
+                <include>io.github.tcnt:configuration-encrypted-file-store-connector:*</include>
+                <include>io.github.tcnt:configuration-file-store-connector:*</include>
+                <include>io.github.tcnt:csv-file-connector:*</include>
+                <include>io.github.tcnt:data-folder-connector:*</include>
+                <include>io.github.tcnt:discovery-service-connectors:*</include>
+                <include>io.github.tcnt:governance-action-connectors:*</include>
+                <include>io.github.tcnt:files-integration-connectors:*</include>
+                <include>io.github.tcnt:kafka-integration-connector:*</include>
+                <include>io.github.tcnt:openapi-integration-connector:*</include>
+                <include>io.github.tcnt:openlineage-integration-connectors:*</include>
+                <include>io.github.tcnt:inmemory-open-metadata-topic-connector:*</include>
+                <include>io.github.tcnt:inmemory-repository-connector:*</include>
+                <include>io.github.tcnt:kafka-open-metadata-topic-connector:*</include>
+                <include>io.github.tcnt:omrs-rest-repository-connector:*</include>
+                <include>io.github.tcnt:open-lineage-janus-connector:*</include>
+                <include>io.github.tcnt:elasticsearch-integration-connector:*</include>
+                <include>io.github.tcnt:open-metadata-archive-file-connector:*</include>
                 <!-- included as we use for the tutorial environment for access control -->
-                <include>org.odpi.egeria:open-metadata-security-samples:*</include>
-                <include>org.odpi.egeria:spring-rest-client-connector:*</include>
+                <include>io.github.tcnt:open-metadata-security-samples:*</include>
+                <include>io.github.tcnt:spring-rest-client-connector:*</include>
                 <!-- pluggable discovery service -->
-                <include>org.odpi.egeria:governance-services-sample:*</include>
+                <include>io.github.tcnt:governance-services-sample:*</include>
             </includes>
             <binaries>
                 <outputFileNameMapping>${artifact.artifactId}-${artifact.baseVersion}${dashClassifier?}.${artifact.extension}</outputFileNameMapping>
@@ -100,7 +100,7 @@
             <useAllReactorProjects>true</useAllReactorProjects>
             <!-- Get graph-repository-connector jar-with-dependencies  -->
             <includes>
-                <include>org.odpi.egeria:graph-repository-connector:*</include>
+                <include>io.github.tcnt:graph-repository-connector:*</include>
             </includes>
             <binaries>
                 <outputFileNameMapping>${artifact.artifactId}-${artifact.baseVersion}${dashClassifier?}.${artifact.extension}</outputFileNameMapping>
@@ -114,9 +114,9 @@
         <moduleSet>
             <useAllReactorProjects>true</useAllReactorProjects>
             <includes>
-                <include>org.odpi.egeria:cloud-information-model:*</include>
-                <include>org.odpi.egeria:glossary-canonical-model:*</include>
-                <include>org.odpi.egeria:open-metadata-types-utility:*</include>
+                <include>io.github.tcnt:cloud-information-model:*</include>
+                <include>io.github.tcnt:glossary-canonical-model:*</include>
+                <include>io.github.tcnt:open-metadata-types-utility:*</include>
             </includes>
             <binaries>
                 <outputFileNameMapping>${artifact.artifactId}-${artifact.baseVersion}${dashClassifier?}.${artifact.extension}</outputFileNameMapping>
@@ -130,14 +130,14 @@
         <moduleSet>
             <useAllReactorProjects>true</useAllReactorProjects>
             <includes>
-                <include>org.odpi.egeria:admin-services-config-metadata-server-sample:*</include>
-                <include>org.odpi.egeria:asset-create-avro-sample:*</include>
-                <include>org.odpi.egeria:asset-create-csv-sample:*</include>
-                <include>org.odpi.egeria:asset-reader-avro-sample:*</include>
-                <include>org.odpi.egeria:asset-reader-csv-sample:*</include>
-                <include>org.odpi.egeria:governance-leadership-sample:*</include>
-                <include>org.odpi.egeria:governance-zone-create-sample:*</include>
-                <include>org.odpi.egeria:subject-area-definition-sample:*</include>
+                <include>io.github.tcnt:admin-services-config-metadata-server-sample:*</include>
+                <include>io.github.tcnt:asset-create-avro-sample:*</include>
+                <include>io.github.tcnt:asset-create-csv-sample:*</include>
+                <include>io.github.tcnt:asset-reader-avro-sample:*</include>
+                <include>io.github.tcnt:asset-reader-csv-sample:*</include>
+                <include>io.github.tcnt:governance-leadership-sample:*</include>
+                <include>io.github.tcnt:governance-zone-create-sample:*</include>
+                <include>io.github.tcnt:subject-area-definition-sample:*</include>
             </includes>
             <binaries>
                 <outputFileNameMapping>${artifact.artifactId}-${artifact.baseVersion}${dashClassifier?}.${artifact.extension}</outputFileNameMapping>
@@ -152,7 +152,7 @@
         <moduleSet>
             <useAllReactorProjects>true</useAllReactorProjects>
             <includes>
-                <include>org.odpi.egeria:ui-chassis-spring:*</include>
+                <include>io.github.tcnt:ui-chassis-spring:*</include>
             </includes>
             <!-- Choose the binaries (ie jars) to includes - in this case keeping as a jar -->
             <binaries>
@@ -167,7 +167,7 @@
         <moduleSet>
             <useAllReactorProjects>true</useAllReactorProjects>
             <includes>
-                <include>org.odpi.egeria:open-metadata-conformance-suite-client:*</include>
+                <include>io.github.tcnt:open-metadata-conformance-suite-client:*</include>
             </includes>
             <binaries>
                 <outputFileNameMapping>${artifact.artifactId}-${artifact.baseVersion}${dashClassifier?}.${artifact.extension}</outputFileNameMapping>
@@ -184,7 +184,7 @@
             <includes>
                 <!-- Full qualification here is groupId:artifactId:packaging:classifier:version -->
                 <!-- This retrieves our extra 'root' pom we use for carrying non-java extras needed -->
-                <include>org.odpi.egeria:egeria:*</include>
+                <include>io.github.tcnt:egeria:*</include>
             </includes>
             <sources>
                 <includeModuleDirectory>false</includeModuleDirectory>

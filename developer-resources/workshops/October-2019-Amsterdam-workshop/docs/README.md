@@ -2,22 +2,22 @@
 <!-- Copyright Contributors to the ODPi Egeria project. -->
 # Egeria Workshop Day 1
 ### Introduction :
- - [Agenda](https://github.com/odpi/egeria/wiki/Egeria-Meeting-1st,-2nd-October-2019-@-Huizen,-Netherlands)
+ - [Agenda](https://github.com/tcnt/egeria/wiki/Egeria-Meeting-1st,-2nd-October-2019-@-Huizen,-Netherlands)
 
 ### Review changes to Asset zones and recent Asset management content
 - Asset Management definition
 - Avro File Support - different programming languages
-- ZoneMembership into classification: [1459](https://github.com/odpi/egeria/issues/1459)
+- ZoneMembership into classification: [1459](https://github.com/tcnt/egeria/issues/1459)
 - Schema registry for EventBus stream support in future.
 ### Data Engine Proxy: 
-- Config store using encrypted files [1646](https://github.com/odpi/egeria/issues/1646)
-- General cache/state persistence mechanism. [\#1622](https://github.com/odpi/egeria/issues/1622) 
+- Config store using encrypted files [1646](https://github.com/tcnt/egeria/issues/1646)
+- General cache/state persistence mechanism. [\#1622](https://github.com/tcnt/egeria/issues/1622) 
 ### Data Engine OMAS: 
-Whether we need to differentiate `Process Template` from `process`. Check conclusions on issue [\#1576](https://github.com/odpi/egeria/issues/1576)
+Whether we need to differentiate `Process Template` from `process`. Check conclusions on issue [\#1576](https://github.com/tcnt/egeria/issues/1576)
 ### Asset Lineage OMAS & Open Lineage Services
 - How can we build connector or in egeria for open lineage services.
 - Cassandra/Elasticsearch with JanusGraph for Lineage.
-- Security and encrypted credentials. Probably we can reuse same method from [1646](https://github.com/odpi/egeria/issues/1646)
+- Security and encrypted credentials. Probably we can reuse same method from [1646](https://github.com/tcnt/egeria/issues/1646)
 ### UI Discussion
 - Authorization approach: token vs session. The conclusion is we will support both solutions for Egeria then companies can choose their own method.
 - We have agreed on the UI Exception strategy for all UI components
@@ -27,7 +27,7 @@ Whether we need to differentiate `Process Template` from `process`. Check conclu
 - [Digital service lifecycle](https://github.com/odpi/data-governance/tree/master/docs/data-privacy-pack#digital-service-lifecycle)
 - [Digital services](https://github.com/odpi/data-governance/tree/master/docs/digital-services)
 ### Deduplication through stewardship server 
-- How can we detect duplicate metadata instances for the same physical assets.[\#1650](https://github.com/odpi/egeria/issues/1650)
+- How can we detect duplicate metadata instances for the same physical assets.[\#1650](https://github.com/tcnt/egeria/issues/1650)
 ### Salesforce use case of CIM model
 - Join development open source with Linux.
 - JSON-LD scanned into open-metadata-archive.
@@ -43,8 +43,8 @@ Whether we need to differentiate `Process Template` from `process`. Check conclu
 
 # Egeria Workshop Day 2
 ### Review the schema attribute/type changes, area 5
-- Changes for SchemaElement/SchemaAttribute [\#1317](https://github.com/odpi/egeria/issues/1317)
-- Changes for attributes to be marked as `deprecated` [\#1669](https://github.com/odpi/egeria/issues/1669)
+- Changes for SchemaElement/SchemaAttribute [\#1317](https://github.com/tcnt/egeria/issues/1317)
+- Changes for attributes to be marked as `deprecated` [\#1669](https://github.com/tcnt/egeria/issues/1669)
 ### Education how the platform services work
 - OMAG servers vs platform. 
 - egeria-server-config.ipynb

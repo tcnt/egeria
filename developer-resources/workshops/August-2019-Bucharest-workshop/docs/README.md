@@ -89,7 +89,7 @@
 * Stewardship Server
   * We have went through how discovery engines will create service request of different annotations to discovery engine OMAS.
   * ActionTriage as a role / steward chooses whether and when to run a request for action. 
-* Open Metadata types: Versioning and Patch Mechanism(https://github.com/odpi/egeria/issues/1367)
+* Open Metadata types: Versioning and Patch Mechanism(https://github.com/tcnt/egeria/issues/1367)
   * We have agreed:
     * We stop directly changing existing types after the significant change of optimization between schemaAttribute and schemaType in the OpenMetadataTypes archive.
     * Any changes to types should be added via a TypeDef patch. This patch is left open for a release. It can be changed but the version number should be changed for each change that goes into master.

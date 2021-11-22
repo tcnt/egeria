@@ -58,13 +58,13 @@ to connect together in the peer-to-peer open metadata repository cohort.
 This capability is delivered along with two repository connectors for the
 following third party connectors:
 
-* [IBM Information Governance Catalog (IGC)](https://github.com/odpi/egeria-connector-ibm-information-server)
-* [Apache Atlas](https://github.com/odpi/egeria-connector-hadoop-ecosystem)
+* [IBM Information Governance Catalog (IGC)](https://github.com/tcnt/egeria-connector-ibm-information-server)
+* [Apache Atlas](https://github.com/tcnt/egeria-connector-hadoop-ecosystem)
 
 Through 2020, our focus shifted to the integration platform as we added
 [connector implementations](../developer-guide/what-is-a-connector.md) for popular third party
 technologies and standards (see [connector catalog](../connector-catalog))
-and built out the [ecosystem user interface (UI)](https://github.com/odpi/egeria-react-ui) that
+and built out the [ecosystem user interface (UI)](https://github.com/tcnt/egeria-react-ui) that
 enables an organization to:
 * configure OMAG Servers on OMAG Server Platforms
 * visualize the open metadata types through the type explorer (TEX)

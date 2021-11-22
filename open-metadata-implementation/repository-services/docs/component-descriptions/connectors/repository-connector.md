@@ -35,12 +35,12 @@ the [OMRS REST API](../omrs-rest-services.md).
 These are the "real" OMRS Repository Connector implementations that provide open metadata access
 to specific types of metadata repositories.
 
-* **[Apache Atlas Repository Connector](https://github.com/odpi/egeria-connector-hadoop-ecosystem)** -
+* **[Apache Atlas Repository Connector](https://github.com/tcnt/egeria-connector-hadoop-ecosystem)** -
 This is the connector that runs in an Egeria [repository proxy](../../../../admin-services/docs/concepts/repository-proxy.md) server, pulling in the key parts of
 Egeria it needs to support the open metadata standards.
 It calls directly to Apache Atlas's REST API interface for the metadata repository.
 
-* **[IGC OMRS Repository Connector](https://github.com/odpi/egeria-connector-ibm-information-server)** -
+* **[IGC OMRS Repository Connector](https://github.com/tcnt/egeria-connector-ibm-information-server)** -
 This is the connector for retrieving metadata from IBM's Information Governance Catalog (aka IGC).
 This connector translates the calls to its OMRS Connector API to IGC's REST API and
 then translates the results of these calls to appropriate responses on its API.

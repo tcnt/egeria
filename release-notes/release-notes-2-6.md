@@ -82,7 +82,7 @@ types allow these elements to be linked together.
 ### Presentation Server / React UI
 
 * The node based User Interface component known as 'Presentation Server' has now fully moved to it's own
-[GitHub Repository](https://github.com/odpi/egeria-react-ui). 
+[GitHub Repository](https://github.com/tcnt/egeria-react-ui). 
 * The docker image has been renamed to [egeria-react-ui](https://hub.docker.com/repository/docker/odpi/egeria-react-ui) 
 * Dino - Adds display of integration servers’ integration services and engine hosts’ engine services, including display of a dependency on a partnerOMAS.
 * Rex - Improved error reporting and geometry management plus more consistent handling of focus objects.

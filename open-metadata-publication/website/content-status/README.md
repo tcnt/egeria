@@ -30,7 +30,7 @@ The description of these phases and the way they are labeled is described below.
 A subsystem that is **in development** means that the Egeria community is still building the function.
 The code is added continuously in small pieces to help the review and socialization process.
 It may not run, or do something useful - it only promises not to break other function.
-There will be [git issues](https://github.com/odpi/egeria/issues) describing the end state.
+There will be [git issues](https://github.com/tcnt/egeria/issues) describing the end state.
 
 ----
 ## Technical Preview

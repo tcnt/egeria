@@ -15,8 +15,8 @@ Figure 1 shows the repository proxy operating.
 
 There are two repository proxy implementations included with Egeria
 
-* [Repository Proxy for Apache Atlas](https://github.com/odpi/egeria-connector-hadoop-ecosystem)
-* [Repository Proxy for IBM Information Governance Catalog (IGC)](https://github.com/odpi/egeria-connector-ibm-information-server)
+* [Repository Proxy for Apache Atlas](https://github.com/tcnt/egeria-connector-hadoop-ecosystem)
+* [Repository Proxy for IBM Information Governance Catalog (IGC)](https://github.com/tcnt/egeria-connector-ibm-information-server)
 
 
 ## Configuring a Repository Proxy

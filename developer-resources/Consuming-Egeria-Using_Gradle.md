@@ -5,7 +5,7 @@
 
 You will first need to decide if you are developing against production or snapshot code.  
 Most consumers should be obtaining content from [Maven Central](https://search.maven.org) 
-using the `org.odpi.egeria` group. 
+using the `io.github.tcnt` group. 
 
 ## Select repository
 
@@ -29,7 +29,7 @@ repositories {
 We import for `compile` the artifacts needed to build our code.
 
 ```sh
-compile "org.odpi.egeria:repository-services-apis:+"
+compile "io.github.tcnt:repository-services-apis:+"
 ```
 
 This allows us to get the latest `repository-services-apis` artifact from the `snapshot` repository. 

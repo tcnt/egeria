@@ -20,8 +20,8 @@ Below are the highlights:
 
 ## Known Issues
 
-* (https://github.com/odpi/egeria/issues/2935)[2935] - Governance Engine OMAS reports exception when entities added
-* (https://github.com/odpi/egeria/issues/3005)[3005] - Occasional failure in 'Building a Data Catalog' notebook
+* (https://github.com/tcnt/egeria/issues/2935)[2935] - Governance Engine OMAS reports exception when entities added
+* (https://github.com/tcnt/egeria/issues/3005)[3005] - Occasional failure in 'Building a Data Catalog' notebook
 
 ## Egeria Implementation Status at Release 1.7
  

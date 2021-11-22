@@ -9,16 +9,16 @@
 
     <parent>
         <artifactId>open-metadata-archives</artifactId>
-        <groupId>org.odpi.egeria</groupId>
+        <groupId>io.github.tcnt</groupId>
         <version>3.4-SNAPSHOT</version>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
 
     <scm>
-        <connection>scm:git:git://github.com/odpi/egeria.git</connection>
-        <developerConnection>scm:git:ssh://github.com/odpi/egeria.git</developerConnection>
-        <url>http://github.com/odpi/egeria/tree/master</url>
+        <connection>scm:git:git://github.com/tcnt/egeria.git</connection>
+        <developerConnection>scm:git:ssh://github.com/tcnt/egeria.git</developerConnection>
+        <url>http://github.com/tcnt/egeria/tree/master</url>
     </scm>
 
     <name>Open Connector Archives</name>
@@ -31,22 +31,22 @@
     <dependencies>
 
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>repository-services-apis</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>repository-services-archive-utilities</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>open-metadata-types</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>catalog-builder</artifactId>
         </dependency>
 
@@ -65,27 +65,27 @@
 
         <!-- Libraries for the connectors -->
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>open-connector-framework</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>avro-file-connector</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>basic-file-connector</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>csv-file-connector</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>data-folder-connector</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.odpi.egeria</groupId>
+            <groupId>io.github.tcnt</groupId>
             <artifactId>kafka-open-metadata-topic-connector</artifactId>
         </dependency>
 

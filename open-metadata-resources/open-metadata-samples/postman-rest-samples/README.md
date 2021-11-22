@@ -26,7 +26,7 @@ in general.
 
 - [In-memory repository configuration and startup](https://raw.githubusercontent.com/odpi/egeria/master/open-metadata-resources/open-metadata-samples/postman-rest-samples/collection/Egeria-InMemoryRepository.postman_collection.json)
 
-### [Egeria IBM Information Server Connectors](https://github.com/odpi/egeria-connector-ibm-information-server)
+### [Egeria IBM Information Server Connectors](https://github.com/tcnt/egeria-connector-ibm-information-server)
 
 #### Egeria IBM Information Governance Catalog Connector
 
@@ -47,7 +47,7 @@ you can also load the
 [Coco Pharmaceuticals](../../open-metadata-deployment/sample-data/coco-pharmaceuticals)
 samples if you have an empty environment.
 
-### [Egeria Apache Atlas Connector](https://github.com/odpi/egeria-connector-apache-atlas)
+### [Egeria Apache Atlas Connector](https://github.com/tcnt/egeria-connector-apache-atlas)
 
 1. [Connector configuration and startup](https://raw.githubusercontent.com/odpi/egeria-connector-apache-atlas/master/samples/Egeria-Apache-Atlas-config.postman_collection.json)
 1. [Sample read operations](https://raw.githubusercontent.com/odpi/egeria-connector-apache-atlas/master/samples/Egeria-Apache-Atlas-read.postman_collection.json)

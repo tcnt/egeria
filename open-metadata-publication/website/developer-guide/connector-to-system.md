@@ -40,14 +40,14 @@ the connector type it can instantiates using:
 - the connector class it instantiates
 - a list of the additional properties, configuration properties and secured properties needed to configure instances of the connector
 
-For example, the [DataStageConnectorProvider](https://github.com/odpi/egeria-connector-ibm-information-server/blob/master/datastage-adapter/src/main/java/org/odpi/egeria/connectors/ibm/datastage/dataengineconnector/DataStageConnectorProvider.java)
+For example, the [DataStageConnectorProvider](https://github.com/tcnt/egeria-connector-ibm-information-server/blob/master/datastage-adapter/src/main/java/org/odpi/egeria/connectors/ibm/datastage/dataengineconnector/DataStageConnectorProvider.java)
 is used to instantiate connectors to IBM DataStage data processing engines. Therefore its name and description refer to
-DataStage, and the connectors it instantiates are [DataStageConnectors](https://github.com/odpi/egeria-connector-ibm-information-server/blob/master/datastage-adapter/src/main/java/org/odpi/egeria/connectors/ibm/datastage/dataengineconnector/DataStageConnector.java).
+DataStage, and the connectors it instantiates are [DataStageConnectors](https://github.com/tcnt/egeria-connector-ibm-information-server/blob/master/datastage-adapter/src/main/java/org/odpi/egeria/connectors/ibm/datastage/dataengineconnector/DataStageConnector.java).
 
-Similarly, the [IGCOMRSRepositoryConnectorProvider](https://github.com/odpi/egeria-connector-ibm-information-server/blob/master/igc-adapter/src/main/java/org/odpi/egeria/connectors/ibm/igc/repositoryconnector/IGCOMRSRepositoryConnectorProvider.java)
+Similarly, the [IGCOMRSRepositoryConnectorProvider](https://github.com/tcnt/egeria-connector-ibm-information-server/blob/master/igc-adapter/src/main/java/org/odpi/egeria/connectors/ibm/igc/repositoryconnector/IGCOMRSRepositoryConnectorProvider.java)
 is used to instantiate connectors to IBM Information Governance Catalog (IGC) metadata repositories. In contrast to the
 DataStageConnectorProvider, the IGCOMRSRepositoryConnectorProvider's name and description refer to IGC, and the
-connectors it instantiates are [IGCOMRSRepositoryConnectors](https://github.com/odpi/egeria-connector-ibm-information-server/blob/master/igc-adapter/src/main/java/org/odpi/egeria/connectors/ibm/igc/repositoryconnector/IGCOMRSRepositoryConnector.java).
+connectors it instantiates are [IGCOMRSRepositoryConnectors](https://github.com/tcnt/egeria-connector-ibm-information-server/blob/master/igc-adapter/src/main/java/org/odpi/egeria/connectors/ibm/igc/repositoryconnector/IGCOMRSRepositoryConnector.java).
 
 Note that the code of all of these connector implementations exists outside Egeria itself (in separate code
 repositories), and there are no dependencies within Egeria on these external repositories. 
@@ -59,8 +59,8 @@ the `recognizedConfigurationProperties` of the connector type.
 
 ### The basic implementation pattern
 
-From the two examples ([DataStageConnectorProvider](https://github.com/odpi/egeria-connector-ibm-information-server/blob/master/datastage-adapter/src/main/java/org/odpi/egeria/connectors/ibm/datastage/dataengineconnector/DataStageConnectorProvider.java)
-and [IGCOMRSRepositoryConnectorProvider](https://github.com/odpi/egeria-connector-ibm-information-server/blob/master/igc-adapter/src/main/java/org/odpi/egeria/connectors/ibm/igc/repositoryconnector/IGCOMRSRepositoryConnectorProvider.java)),
+From the two examples ([DataStageConnectorProvider](https://github.com/tcnt/egeria-connector-ibm-information-server/blob/master/datastage-adapter/src/main/java/org/odpi/egeria/connectors/ibm/datastage/dataengineconnector/DataStageConnectorProvider.java)
+and [IGCOMRSRepositoryConnectorProvider](https://github.com/tcnt/egeria-connector-ibm-information-server/blob/master/igc-adapter/src/main/java/org/odpi/egeria/connectors/ibm/igc/repositoryconnector/IGCOMRSRepositoryConnectorProvider.java)),
 you will see that writing a connector provider follows a simple pattern:
 
 - Extend a _connector provider_ base class specific to your connector's interface.
@@ -81,11 +81,11 @@ actually need to do. For a service to use our connector, the connector must prov
 to that service.
 
 For example, the [Data Engine Proxy Services](../../../open-metadata-implementation/governance-servers/data-engine-proxy-services) integrate
-metadata from data engines with Egeria. To integrate DataStage with Egeria, we want our [DataStageConnector](https://github.com/odpi/egeria-connector-ibm-information-server/blob/master/datastage-adapter/src/main/java/org/odpi/egeria/connectors/ibm/datastage/dataengineconnector/DataStageConnector.java)
+metadata from data engines with Egeria. To integrate DataStage with Egeria, we want our [DataStageConnector](https://github.com/tcnt/egeria-connector-ibm-information-server/blob/master/datastage-adapter/src/main/java/org/odpi/egeria/connectors/ibm/datastage/dataengineconnector/DataStageConnector.java)
 to be used by the data engine proxy services. Therefore the connector needs to extend [DataEngineConnectorBase](../../../open-metadata-implementation/governance-servers/data-engine-proxy-services/data-engine-proxy-connector/src/main/java/org/odpi/openmetadata/governanceservers/dataengineproxy/connectors/DataEngineConnectorBase.java),
 because this defines the methods needed by the data engine proxy services.
 
-Likewise, we want our [IGCOMRSRepositoryConnector](https://github.com/odpi/egeria-connector-ibm-information-server/blob/master/igc-adapter/src/main/java/org/odpi/egeria/connectors/ibm/igc/repositoryconnector/IGCOMRSRepositoryConnector.java)
+Likewise, we want our [IGCOMRSRepositoryConnector](https://github.com/tcnt/egeria-connector-ibm-information-server/blob/master/igc-adapter/src/main/java/org/odpi/egeria/connectors/ibm/igc/repositoryconnector/IGCOMRSRepositoryConnector.java)
 to integrate IGC with Egeria as a metadata repository. Therefore the connector needs to extend
 [OMRSRepositoryConnector](../../../open-metadata-implementation/repository-services/repository-services-apis/src/main/java/org/odpi/openmetadata/repositoryservices/connectors/stores/metadatacollectionstore/repositoryconnector/OMRSRepositoryConnector.java),
 because this defines the methods needed to integrate with Open Metadata Repository Services (OMRS).

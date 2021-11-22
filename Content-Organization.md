@@ -127,17 +127,17 @@ The Egeria core repository contains the core Egeria functionality, and is organi
 
 Egeria connectors repositories contain the code that allow non-Egeria technologies to connect into Egeria:
 
-- [Hadoop Ecosystem connectors](https://github.com/odpi/egeria-connector-hadoop-ecosystem) houses the connectors for
+- [Hadoop Ecosystem connectors](https://github.com/tcnt/egeria-connector-hadoop-ecosystem) houses the connectors for
     various Hadoop ecosystem components, like Apache Atlas and Apache Ranger.
-- [IBM Information Server connectors](https://github.com/odpi/egeria-connector-ibm-information-server) houses the
+- [IBM Information Server connectors](https://github.com/tcnt/egeria-connector-ibm-information-server) houses the
     connectors for IBM Information Server components, like Information Governance Catalog, DataStage and Information
     Analyzer.
-- [Database connectors](https://github.com/odpi/egeria-database-connectors)    
+- [Database connectors](https://github.com/tcnt/egeria-database-connectors)    
 
 ### Egeria samples repository
 
 The samples repository contains samples of using Egeria in various ways: Ansible roles, sample data and metadata,
-documented demonstrations, and so on at https://github.com/odpi/egeria-samples
+documented demonstrations, and so on at https://github.com/tcnt/egeria-samples
 
 ----
 License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/),

@@ -34,7 +34,7 @@ Java Objects as JSON payloads.
 The definition of the connector interface for these connectors is
 defined in the [repository-services-api](../../../open-metadata-implementation/repository-services/repository-services-apis) module
 in the
-[org.odpi.openmetadata.repositoryservices.connectors.openmetadatatopic](https://github.com/odpi/egeria/tree/master/open-metadata-implementation/repository-services/repository-services-apis/src/main/java/org/odpi/openmetadata/repositoryservices/connectors/openmetadatatopic) Java package.
+[org.odpi.openmetadata.repositoryservices.connectors.openmetadatatopic](https://github.com/tcnt/egeria/tree/master/open-metadata-implementation/repository-services/repository-services-apis/src/main/java/org/odpi/openmetadata/repositoryservices/connectors/openmetadatatopic) Java package.
 
 It is configured in the Egeria
 [OMAG Servers](../../../open-metadata-implementation/admin-services/docs/concepts/omag-server.md) through the [Event Bus Configuration](../../../open-metadata-implementation/admin-services/docs/concepts/event-bus.md).
@@ -62,7 +62,7 @@ configuration document as a clear text JSON file.
 
 The definition of the connector interface for these connectors is
 defined in the [admin-services-api](../../../open-metadata-implementation/admin-services/admin-services-api) module in the
-[org.odpi.openmetadata.adminservices.store](https://github.com/odpi/egeria/tree/master/open-metadata-implementation/admin-services/admin-services-api/src/main/java/org/odpi/openmetadata/adminservices/store) Java package.
+[org.odpi.openmetadata.adminservices.store](https://github.com/tcnt/egeria/tree/master/open-metadata-implementation/admin-services/admin-services-api/src/main/java/org/odpi/openmetadata/adminservices/store) Java package.
 
 Configuring a configuration store connector in the
 OMAG Server Platform is described in the [Administration Guide](../../../open-metadata-implementation/admin-services/docs/user/configuring-the-configuration-document-store.md).
@@ -90,7 +90,7 @@ cohort registry store connector:
 The definition of the connector interface for these connectors is
 defined in the [repository-services-api](../../../open-metadata-implementation/repository-services/repository-services-apis) module
 in the
-[org.odpi.openmetadata.repositoryservices.connectors.stores.cohortregistrystore](https://github.com/odpi/egeria/tree/master/open-metadata-implementation/repository-services/repository-services-apis/src/main/java/org/odpi/openmetadata/repositoryservices/connectors/stores/cohortregistrystore) Java package.
+[org.odpi.openmetadata.repositoryservices.connectors.stores.cohortregistrystore](https://github.com/tcnt/egeria/tree/master/open-metadata-implementation/repository-services/repository-services-apis/src/main/java/org/odpi/openmetadata/repositoryservices/connectors/stores/cohortregistrystore) Java package.
 
   
 ## Open Metadata Archive Store Connectors
@@ -115,7 +115,7 @@ Egeria provides a single implementation of the open metadata archive store conne
 The definition of the connector interface for these connectors is
 defined in the [repository-services-api](../../../open-metadata-implementation/repository-services/repository-services-apis) module
 in the
-[org.odpi.openmetadata.repositoryservices.connectors.stores.archivestore](https://github.com/odpi/egeria/tree/master/open-metadata-implementation/repository-services/repository-services-apis/src/main/java/org/odpi/openmetadata/repositoryservices/connectors/stores/archivestore) Java package.
+[org.odpi.openmetadata.repositoryservices.connectors.stores.archivestore](https://github.com/tcnt/egeria/tree/master/open-metadata-implementation/repository-services/repository-services-apis/src/main/java/org/odpi/openmetadata/repositoryservices/connectors/stores/archivestore) Java package.
 
 
 ## Audit Log Destination Connectors
@@ -145,7 +145,7 @@ Below are the connector implementations provided by Egeria
 The definition of the connector interface for these connectors is
 defined in the [repository-services-api](../../../open-metadata-implementation/repository-services/repository-services-apis) module
 in the
-[org.odpi.openmetadata.repositoryservices.connectors.stores.auditlogstore](https://github.com/odpi/egeria/tree/master/open-metadata-implementation/repository-services/repository-services-apis/src/main/java/org/odpi/openmetadata/repositoryservices/connectors/stores/auditlogstore) Java package.
+[org.odpi.openmetadata.repositoryservices.connectors.stores.auditlogstore](https://github.com/tcnt/egeria/tree/master/open-metadata-implementation/repository-services/repository-services-apis/src/main/java/org/odpi/openmetadata/repositoryservices/connectors/stores/auditlogstore) Java package.
 
 There is more information on the use of audit logging in the [Diagnostic Guide](../diagnostic-guide).
 
@@ -167,7 +167,7 @@ This is embedded in Egeria's [clients](../developer-guide/using-egeria-clients.m
 
 The definition of the connector interface for these connectors is
 defined in the [rest-client-connector-api](../../../open-metadata-implementation/adapters/open-connectors/rest-client-connectors/rest-client-connectors-api) module in the
-[org.odpi.openmetadata.adapters.connectors.restclients](https://github.com/odpi/egeria/tree/master/open-metadata-implementation/adapters/open-connectors/rest-client-connectors/rest-client-connector-api/src/main/java/org/odpi/openmetadata/adapters/connectors/restclients) Java package.
+[org.odpi.openmetadata.adapters.connectors.restclients](https://github.com/tcnt/egeria/tree/master/open-metadata-implementation/adapters/open-connectors/rest-client-connectors/rest-client-connector-api/src/main/java/org/odpi/openmetadata/adapters/connectors/restclients) Java package.
 
 
 ## Cohort Member Client Connector
@@ -194,7 +194,7 @@ cohort member's [Local Repository Configuration](../../../open-metadata-implemen
 The definition of the connector interface for these connectors is
 defined in the [repository-services-api](../../../open-metadata-implementation/repository-services/repository-services-apis) module
 in the
-[org.odpi.openmetadata.repositoryservices.connectors.stores.metadatacollectionstore.repositoryconnector](https://github.com/odpi/egeria/tree/master/open-metadata-implementation/repository-services/repository-services-apis/src/main/java/org/odpi/openmetadata/repositoryservices/connectors/stores/metadatacollectionstore/repositoryconnector) Java package.
+[org.odpi.openmetadata.repositoryservices.connectors.stores.metadatacollectionstore.repositoryconnector](https://github.com/tcnt/egeria/tree/master/open-metadata-implementation/repository-services/repository-services-apis/src/main/java/org/odpi/openmetadata/repositoryservices/connectors/stores/metadatacollectionstore/repositoryconnector) Java package.
 It is the same interface as the [repository connectors](exchange-connectors.md#Repository and Event Mapper Connectors) that are used to provide the local repository to a metadata server
 so that the Open Metadata Repository Services (OMRS)
 issue calls to the same interface irrespective of whether the call is to the local repository or a remote cohort member.

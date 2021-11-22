@@ -193,7 +193,7 @@ describes the end vision for Egeria and our current status.
 If you discover an issue in the release you are using, we recommend
 first upgrading to the latest available release.  If this does not
 resolve the problem, please raise a new
-[git issue](https://github.com/odpi/egeria).
+[git issue](https://github.com/tcnt/egeria).
 
 You can also follow our discussions by joining the LF AI & Data Foundation Slack team.
 Sign up at https://slack.lfai.foundation/ & join the

@@ -23,7 +23,7 @@ to its governance servers and metadata servers.
 Therefore each tenant sees a different collection of metadata and operates in isolation to the other tenants.
 
 The set up and user guide for the presentation server is described here: 
-[https://github.com/odpi/egeria-react-ui](https://github.com/odpi/egeria-react-ui).
+[https://github.com/tcnt/egeria-react-ui](https://github.com/tcnt/egeria-react-ui).
 
 
 ----

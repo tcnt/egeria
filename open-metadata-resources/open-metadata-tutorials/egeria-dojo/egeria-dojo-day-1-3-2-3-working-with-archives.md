@@ -13,7 +13,7 @@ load prepared content such as glossaries or standard models into a metadata serv
 First read about [Open Metadata Archives](../..).
 
 Egeria has a number of pre-built content packs in the `content-packs` directory on
-GitHub - [Click to link to it](https://github.com/odpi/egeria/tree/master/content-packs)
+GitHub - [Click to link to it](https://github.com/tcnt/egeria/tree/master/content-packs)
 
 Using Postman, try to create a new request that loads this archive.
 

@@ -125,13 +125,13 @@ For details on both see the commit history in GitHub.
 
 ## Known Issues
 
-* It is recommended to use a chromium-based browser such as Google Chrome or Microsoft Edge, or Apple Safari for the Egeria React UI. Some parts of the UI experience such as Dino currently experience problems with Firefox. See [odpi/egeria-react-ui#96](https://github.com/odpi/egeria-react-ui/issues/96) .
-* Egeria source code currently fails to build on Windows natively. Please use Linux, MacOS, or compile under WSL/WSL2 on Windows. See [#4917](https://github.com/odpi/egeria/issues/4917)
-* Several Java samples fail (governance, admin) - [#4656](https://github.com/odpi/egeria/issues/4656),  [#4662](https://github.com/odpi/egeria/issues/4656),  [#4056](https://github.com/odpi/egeria/issues/4056)
-* The React UI used by the helm charts and compose is based on react UI release 2.7.0 due to layout issues found with 2.8.0. See  [#5022](https://github.com/odpi/egeria/issues/5022)
-* The platform services notebook may fail to query servers correctly. See [#5023](https://github.com/odpi/egeria/issues/5023)
-* The building a data catalog notebook may fail if run quickly. See [#2688](https://github.com/odpi/egeria/issues/2688)
-* The data curation notebook is incomplete and still being developed. The final steps may fail to work in a container environment. See [#5021](https://github.com/odpi/egeria/issues/5021)
+* It is recommended to use a chromium-based browser such as Google Chrome or Microsoft Edge, or Apple Safari for the Egeria React UI. Some parts of the UI experience such as Dino currently experience problems with Firefox. See [odpi/egeria-react-ui#96](https://github.com/tcnt/egeria-react-ui/issues/96) .
+* Egeria source code currently fails to build on Windows natively. Please use Linux, MacOS, or compile under WSL/WSL2 on Windows. See [#4917](https://github.com/tcnt/egeria/issues/4917)
+* Several Java samples fail (governance, admin) - [#4656](https://github.com/tcnt/egeria/issues/4656),  [#4662](https://github.com/tcnt/egeria/issues/4656),  [#4056](https://github.com/tcnt/egeria/issues/4056)
+* The React UI used by the helm charts and compose is based on react UI release 2.7.0 due to layout issues found with 2.8.0. See  [#5022](https://github.com/tcnt/egeria/issues/5022)
+* The platform services notebook may fail to query servers correctly. See [#5023](https://github.com/tcnt/egeria/issues/5023)
+* The building a data catalog notebook may fail if run quickly. See [#2688](https://github.com/tcnt/egeria/issues/2688)
+* The data curation notebook is incomplete and still being developed. The final steps may fail to work in a container environment. See [#5021](https://github.com/tcnt/egeria/issues/5021)
 
 # Egeria Implementation Status at Release 2.8
 

@@ -20,10 +20,10 @@ are GPG signed and distributed to [Maven Central](https://oss.sonatype.org).
 
 ## Obtaining releases / artifacts
 
-* Maven Central - https://mvnrepository.com/artifact/org.odpi.egeria - typically used by other developers integrating with our code
-* Github Release - https://github.com/odpi/egeria/releases - source code in zip & tar.gz formats
+* Maven Central - https://mvnrepository.com/artifact/io.github.tcnt - typically used by other developers integrating with our code
+* Github Release - https://github.com/tcnt/egeria/releases - source code in zip & tar.gz formats
 * Git - 'git checkout Vx.y' to get version as-shipped (each release is tagged at the point it is shipped)
-* Release notes are available online (in master) at [https://github.com/odpi/egeria/tree/master/release-notes](../release-notes).
+* Release notes are available online (in master) at [https://github.com/tcnt/egeria/tree/master/release-notes](../release-notes).
 
  ## Release process summary
  
@@ -102,8 +102,8 @@ are GPG signed and distributed to [Maven Central](https://oss.sonatype.org).
 * Approve the release by responding to the automated email (or reject, and go back to the previous step)
 * tag the release in git `git tag -a Vx.y -m "Release x.y"`
 * The final steps will now run & push artifacts first to bintray, and then maven central
-* Meanwhile create the git release at https://github.com/odpi/egeria/releases. Use 'Vx.y' as the tag, and ensure the correct branch is set for the target ie egeria-release-x.y
-* Fill in the release notes using a title of 'Release x.y' and copy the notes from the appropriate release notes at https://github.com/odpi/egeria/tree/master/release-notes
+* Meanwhile create the git release at https://github.com/tcnt/egeria/releases. Use 'Vx.y' as the tag, and ensure the correct branch is set for the target ie egeria-release-x.y
+* Fill in the release notes using a title of 'Release x.y' and copy the notes from the appropriate release notes at https://github.com/tcnt/egeria/tree/master/release-notes
 * Artifacts will be available on maven central within around half a day.
 * Source archives will be added to the release on git within an hour or so.
 

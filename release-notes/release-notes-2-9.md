@@ -37,7 +37,7 @@ Egeria should then be built & run within this environment.
 
 IDEs such as IntelliJ and VSCode support editing and code management within the Windows GUI alongside build and execution in Linux.
 
-See [PR #5084](https://github.com/odpi/egeria/pull/5084) for more information.
+See [PR #5084](https://github.com/tcnt/egeria/pull/5084) for more information.
 
 ### Bug fixes and other updates
 * Additional Bug Fixes
@@ -47,8 +47,8 @@ For details on both see the commit history in GitHub.
 
 ## Known Issues
 
-* It is recommended to use a chromium-based browser such as Google Chrome or Microsoft Edge, or Apple Safari for the Egeria React UI. Some parts of the UI experience such as Dino currently experience problems with Firefox. See [odpi/egeria-react-ui#96](https://github.com/odpi/egeria-react-ui/issues/96) .
-* When running the 'Understanding Platform Services' lab, ensure you run the 'egeria-service-config' notebook first and do not restart the python kernel before running this lab. See [#4842](https://github.com/odpi/egeria/issues/4842) .
+* It is recommended to use a chromium-based browser such as Google Chrome or Microsoft Edge, or Apple Safari for the Egeria React UI. Some parts of the UI experience such as Dino currently experience problems with Firefox. See [odpi/egeria-react-ui#96](https://github.com/tcnt/egeria-react-ui/issues/96) .
+* When running the 'Understanding Platform Services' lab, ensure you run the 'egeria-service-config' notebook first and do not restart the python kernel before running this lab. See [#4842](https://github.com/tcnt/egeria/issues/4842) .
 
 # Egeria Implementation Status at Release 2.9
 

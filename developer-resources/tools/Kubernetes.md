@@ -15,7 +15,7 @@ Egeria uses Kubernetes to run all of the components
 in the [Coco Pharmaceuticals Hands on Labs](../../open-metadata-resources/open-metadata-labs).
 You can run this Kubernetes environment
 by following this link to the
-[Egeria Lab Helm Chart](https://github.com/odpi/egeria-charts/tree/main/charts/odpi-egeria-lab).
+[Egeria Lab Helm Chart](https://github.com/tcnt/egeria-charts/tree/main/charts/odpi-egeria-lab).
 
 
 ----

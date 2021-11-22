@@ -150,17 +150,17 @@ public enum ConformanceSuiteErrorCode
     NO_ENTERPRISE_TOPIC(500, "CONFORMANCE-SUITE-500-001 ",
             "The ODPi Egeria Conformance Suite located in OMAG server {0} has not been passed an enterprise topic connector",
             "The conformance suite is unable to receive and evaluate events from technologies under test.",
-            "This is an internal logic error.  Create a git issue at https://github.com/odpi/egeria/issues to get this resolved."),
+            "This is an internal logic error.  Create a git issue at https://github.com/tcnt/egeria/issues to get this resolved."),
 
     NO_ENTERPRISE_CONNECTOR_MANAGER(500, "CONFORMANCE-SUITE-500-002 ",
             "The ODPi Egeria Conformance Suite located in OMAG server {0} has not been passed an enterprise connector manager",
             "The conformance suite is unable to issue metadata requests to the technologies under test.",
-            "This is an internal logic error.  Create a git issue at https://github.com/odpi/egeria/issues to get this resolved."),
+            "This is an internal logic error.  Create a git issue at https://github.com/tcnt/egeria/issues to get this resolved."),
 
     DUPLICATE_TEST_CASE(500, "CONFORMANCE-SUITE-500-003 ",
             "The ODPi Egeria Conformance Suite testing technology {0} of type {1} has created two test cases with the same id of {2}",
             "The conformance suite is unable to process one of the test cases.",
-            "This is an internal logic error.  Create a git issue at https://github.com/odpi/egeria/issues to get this resolved."),
+            "This is an internal logic error.  Create a git issue at https://github.com/tcnt/egeria/issues to get this resolved."),
 
     SERVICE_NOT_INITIALIZED(503, "CONFORMANCE-SUITE-503-003 ",
             "The conformance suite service has not been initialized for server {0} and can not support REST API call {1}",

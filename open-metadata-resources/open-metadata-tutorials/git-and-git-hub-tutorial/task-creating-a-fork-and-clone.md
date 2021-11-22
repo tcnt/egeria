@@ -21,7 +21,7 @@ Figure 1 illustrates the forking process.
 ![Figure 1](../../../developer-resources/tools/git-hub-fork.png)
 > **Figure 1:** Forking an Egeria git repository
 
-To create your fork, from your browser, navigate to the [Egeria GitHub URL](https://github.com/odpi/egeria),
+To create your fork, from your browser, navigate to the [Egeria GitHub URL](https://github.com/tcnt/egeria),
 and logging into the github UI with a 
 [your GitHub id](task-getting-git-hub-id.md).
 You will then see a 'Fork' button at the top right, and should click this to 
@@ -54,7 +54,7 @@ The git clone command creates a new directory called `egeria` containing the Ege
 You should also set the upstream repository to connect your clone to the main Egeria repository:
 
 ```bash
-$ git remote add upstream https://github.com/odpi/egeria.git
+$ git remote add upstream https://github.com/tcnt/egeria.git
 ```
 
 Now you are ready to [create a branch for your changes](task-creating-git-branches.md).

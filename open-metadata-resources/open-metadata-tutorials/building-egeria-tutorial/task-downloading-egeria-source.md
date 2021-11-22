@@ -6,7 +6,7 @@
 The Egeria source is extracted from GitHub using the following `git` command:
 
 ```bash
-$ git clone https://github.com/odpi/egeria.git
+$ git clone https://github.com/tcnt/egeria.git
 Cloning into 'egeria'...
 remote: Enumerating objects: 38, done.
 remote: Counting objects: 100% (38/38), done.

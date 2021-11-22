@@ -5,7 +5,7 @@
 
 [![GitHub](https://img.shields.io/github/license/odpi/egeria)](LICENSE)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/3044/badge)](https://bestpractices.coreinfrastructure.org/projects/3044)
-[![Maven Central](https://img.shields.io/maven-central/v/org.odpi.egeria/egeria)](https://mvnrepository.com/artifact/org.odpi.egeria)
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.tcnt/egeria)](https://mvnrepository.com/artifact/io.github.tcnt)
 
 <!-- [![Azure](https://dev.azure.com/odpi/egeria/_apis/build/status/odpi.egeria)](https://dev.azure.com/odpi/Egeria/_build) -->
 <!-- [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=odpi_egeria&metric=alert_status)](https://sonarcloud.io/dashboard?id=odpi_egeria) -->
@@ -77,7 +77,7 @@ The TSC will arrange virtual maintainers meetings as needed. Details are on the
 TSC Wiki detailed above.
 
 Minutes of past maintainers meetings can be found on the
-[Egeria GitHub wiki](https://github.com/odpi/egeria/wiki).
+[Egeria GitHub wiki](https://github.com/tcnt/egeria/wiki).
 
 ## Monthly community webinars
 

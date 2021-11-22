@@ -15,7 +15,7 @@ The samples themselves broadly fit into two categories:
 ## Requirements
 
 The simplest way to deploy the samples is as part of the complete kubernetes-based demo environment,
-based on the provided Helm charts at https://github.com/odpi/egeria-charts/tree/main/charts/odpi-egeria-lab .
+based on the provided Helm charts at https://github.com/tcnt/egeria-charts/tree/main/charts/odpi-egeria-lab .
 
 Alternatively, if you want to make use of a pre-existing IBM InfoSphere Information Governance Catalog
 repository, you will need:
@@ -112,7 +112,7 @@ The playbook will automatically create (or update) all of the needed assets, ide
 as well as kicking off the harvesting of metadata through IBM Metadata Asset Manager and
 (in v11.7+) the automated analysis of the database samples through Information Analyzer.
 
-If you have configured the [IGC Repository Connector](https://github.com/odpi/egeria-connector-ibm-information-server)
+If you have configured the [IGC Repository Connector](https://github.com/tcnt/egeria-connector-ibm-information-server)
 in advance of running the playbook, including the event mapper configuration, you will also
 see events published into the cohort for all of these samples as well as part of the load 
 process.

@@ -99,7 +99,7 @@ to the OMAG server platform.
 
 ```xml
 <dependency>
-    <groupId>org.odpi.egeria</groupId>
+    <groupId>io.github.tcnt</groupId>
     <artifactId>asset-owner-spring</artifactId>
 </dependency>
 ```

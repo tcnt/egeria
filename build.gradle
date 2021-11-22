@@ -40,7 +40,7 @@ apply plugin: 'nebula-aggregate-javadocs'
 
 allprojects {
 
-    group = 'org.odpi.egeria'
+    group = 'io.github.tcnt'
     version = '3.4-SNAPSHOT'
 
     // This enforces version checking but is slow to process

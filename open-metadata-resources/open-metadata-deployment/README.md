@@ -16,8 +16,8 @@ part of our build process, shared to Docker Hub, and is used by both our Kuberne
 
 ## Kubernetes
 
-Helm charts to deploy egeria along with supporting infrastructure can now be found at https://github.com/odpi/egeria-charts .
-A K8s is being developed at https://github.com/odpi/egeria-k8s-operator .
+Helm charts to deploy egeria along with supporting infrastructure can now be found at https://github.com/tcnt/egeria-charts .
+A K8s is being developed at https://github.com/tcnt/egeria-k8s-operator .
 
 ## Docker Compose
 

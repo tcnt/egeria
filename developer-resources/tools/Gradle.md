@@ -11,7 +11,7 @@ Gradle is an alternative build tool to maven & offers
  - Extremely fast incremental builds
 
 Our direction is for a Gradle build to replace Maven. However that work is still underway.
-See [#3370](https://github.com/odpi/egeria/issues/3370) for current progress. As such our supported build environment remains [Maven](Maven.md.)
+See [#3370](https://github.com/tcnt/egeria/issues/3370) for current progress. As such our supported build environment remains [Maven](Maven.md.)
 
 As of release 3.0 most components are building with gradle, but artifacts are not being
 created, and verification has not been done. Contributions to this work are welcome, as are issue reports!

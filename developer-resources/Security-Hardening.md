@@ -15,7 +15,7 @@ reporting, tracking, etc) as well as some common techniques we can apply to addr
     - Any third party inputs (ie. from consumers) -- which can be sent to us at [egeria-security](mailto:egeria-security@lists.lfaidata.foundation)
 - Work can then begin on resolving them, with two potential options (depending on complexity):
     - Quick to resolve: create an issue when we believe we have a fix, and link the PR with the fix to the issue
-    - For any we cannot quickly resolve, we will use [GitHub's security advisories](https://github.com/odpi/egeria/security/advisories)
+    - For any we cannot quickly resolve, we will use [GitHub's security advisories](https://github.com/tcnt/egeria/security/advisories)
         to capture the details and notify publicly about the potential vulnerability
 
 ## Techniques to address vulnerabilities

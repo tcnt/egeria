@@ -13,7 +13,7 @@ Below are the highlights of this release:
  * Ongoing bug fixes and refactoring especially in subject-area omas.
 
 ## Known Issues
- * In the VDC helm chart, the Apache Atlas initialization job fails to complete. This is due to a problem with the Apache Atlas server and Apache SOLR. See https://github.com/odpi/egeria/issues/3587 for more information.
+ * In the VDC helm chart, the Apache Atlas initialization job fails to complete. This is due to a problem with the Apache Atlas server and Apache SOLR. See https://github.com/tcnt/egeria/issues/3587 for more information.
 
 ## Dependencies
  * Spring Boot is updated to 2.3.3.

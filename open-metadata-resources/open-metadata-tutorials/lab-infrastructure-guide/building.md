@@ -33,7 +33,7 @@ Egeria itself, its history, and the rationale behind various decisions that are 
 time.
 
 In our [Downloading Egeria from GitHub tutorial](../building-egeria-tutorial/task-downloading-egeria-source.md),
-when you are asked to do a `git clone https://github.com/odpi/egeria.git`, what you are
+when you are asked to do a `git clone https://github.com/tcnt/egeria.git`, what you are
 telling your own computer to do is to create a local copy of our source code repository.
 It is this local copy that you can then use (locally) to build Egeria itself.
 

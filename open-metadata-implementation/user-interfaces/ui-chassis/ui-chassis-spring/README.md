@@ -16,14 +16,14 @@ lineage-display-config:
 In this example a rule is defined which will invert all the edges from the lineage graph of type SemanticAssignment
 and have the destination node type GlossaryTerm and source node type GlossaryCategory.
 
-[0] - [https://github.com/odpi/egeria-ui](https://github.com/odpi/egeria-ui)
+[0] - [https://github.com/tcnt/egeria-ui](https://github.com/tcnt/egeria-ui)
 
 # Start
 
 Start the base server for the `ui-chassis-spring`.
 
 ```bash
-$ git clone https://github.com/odpi/egeria-ui
+$ git clone https://github.com/tcnt/egeria-ui
 $ cd egeria-ui
 $ npm install
 $ npm run build --api-url=http://api.production # or npm run start --api-url=http://api.production
@@ -36,7 +36,7 @@ $ mvn spring-boot:run -Dspring-boot.run.folders=/path/to/libs/ -Dspring-boot.run
 # Start in development mode
 
 ```bash
-$ git clone https://github.com/odpi/egeria-ui
+$ git clone https://github.com/tcnt/egeria-ui
 $ cd egeria-ui
 $ npm install
 $ npm run start --api-url=http://api.production # will start a static server on http://localhost:8081

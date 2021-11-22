@@ -50,7 +50,7 @@ responsible for hosting the data engine proxy connector.
             "class": "Connection",
             "connectorType": {
                 "class": "ConnectorType",
-                "connectorProviderClassName": "org.odpi.egeria.connectors.ibm.datastage.dataengineconnector.DataStageConnectorProvider"
+                "connectorProviderClassName": "io.github.tcnt.connectors.ibm.datastage.dataengineconnector.DataStageConnectorProvider"
             },
             "endpoint": {
                 "class": "Endpoint",

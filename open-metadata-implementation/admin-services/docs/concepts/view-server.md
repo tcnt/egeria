@@ -39,7 +39,7 @@ Once it is configured, the view server can be started using the
 [Starting an OMAG Server](../user/starting-and-stopping-omag-server.md).
 
 Instructions for setting up the related presentation server 
-can be found at [https://github.com/odpi/egeria-react-ui](https://github.com/odpi/egeria-react-ui).
+can be found at [https://github.com/tcnt/egeria-react-ui](https://github.com/tcnt/egeria-react-ui).
 
 ----
 * Return to the [OMAG Server](omag-server.md) types.

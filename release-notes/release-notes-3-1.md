@@ -65,7 +65,7 @@ an end user desktop environment (and can also be run in enterprise/cloud environ
 
 ## Egeria Helm charts repository
 
-The Helm charts are now being developed at https://github.com/odpi/egeria. Charts are now published as a proper Helm Repository, making installation easier. This move also keeps their lifecycle independent of our various code repositories, and issues/features should be opened on that repository.
+The Helm charts are now being developed at https://github.com/tcnt/egeria. Charts are now published as a proper Helm Repository, making installation easier. This move also keeps their lifecycle independent of our various code repositories, and issues/features should be opened on that repository.
 
 Charts are now installable without cloning the git repository. Instead first add the repository:
 ```shell
@@ -96,7 +96,7 @@ For browsing the type system and repository within this environment, use the Rea
 
 ### Known Issues
 
-* It is recommended to use a chromium-based browser such as Google Chrome or Microsoft Edge, or alternatively Apple Safari for the Egeria React UI. Some parts of the UI experience such as Dino currently experience problems with Firefox. See [odpi/egeria-react-ui#96](https://github.com/odpi/egeria-react-ui/issues/96) .
+* It is recommended to use a chromium-based browser such as Google Chrome or Microsoft Edge, or alternatively Apple Safari for the Egeria React UI. Some parts of the UI experience such as Dino currently experience problems with Firefox. See [odpi/egeria-react-ui#96](https://github.com/tcnt/egeria-react-ui/issues/96) .
 
 
 # Further Help and Support

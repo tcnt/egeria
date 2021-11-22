@@ -738,49 +738,49 @@
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>admin-services-api</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>admin-services-registration</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>admin-services-client</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>admin-services-server</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>admin-services-spring</artifactId>
                 <scope>runtime</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>analytics-modeling-api</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>analytics-modeling-api</artifactId>
                 <type>test-jar</type>
                 <scope>test</scope>
@@ -788,140 +788,140 @@
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>analytics-modeling-client</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>analytics-modeling-server</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>analytics-modeling-spring</artifactId>
                 <scope>runtime</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>analytics-integrator-api</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>analytics-integrator-client</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>analytics-integrator-server</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>analytics-integrator-spring</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>api-integrator-api</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>api-integrator-client</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>api-integrator-server</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>api-integrator-spring</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>asset-analysis-api</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>asset-analysis-client</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>asset-analysis-server</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>asset-analysis-spring</artifactId>
                 <scope>runtime</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>asset-catalog-api</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>asset-catalog-client</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>asset-catalog-server</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>asset-catalog-spring</artifactId>
                 <scope>runtime</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>asset-catalog-topic-connector</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
@@ -929,1816 +929,1816 @@
 
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>asset-consumer-api</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>asset-consumer-client</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>asset-consumer-topic-connectors</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>asset-consumer-server</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>asset-consumer-spring</artifactId>
                 <scope>runtime</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>asset-lineage-api</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>asset-lineage-client</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>asset-lineage-server</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>asset-lineage-spring</artifactId>
                 <scope>runtime</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>asset-lineage-topic-connectors</artifactId>
                 <version>${open-metadata.version}</version>
                 <scope>compile</scope>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>asset-manager-api</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>asset-manager-topic-connectors</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>asset-manager-client</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>asset-manager-server</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>asset-manager-spring</artifactId>
                 <scope>runtime</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>asset-owner-api</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>asset-owner-client</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>asset-owner-server</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>asset-owner-spring</artifactId>
                 <scope>runtime</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>audit-log-console-connector</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>audit-log-file-connector</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>audit-log-framework</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>audit-log-slf4j-connector</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>audit-log-event-topic-connector</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>catalog-integrator-api</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>catalog-integrator-client</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>catalog-integrator-server</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>catalog-integrator-spring</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>cloud-information-model</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>cohort-registry-file-store-connector</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>community-profile-api</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>community-profile-client</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>community-profile-server</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>community-profile-spring</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>community-profile-topic-connectors</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>configuration-file-store-connector</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>configuration-encrypted-file-store-connector</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>connector-configuration-factory</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>data-engine-api</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>data-engine-client</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>data-engine-server</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>data-engine-spring</artifactId>
                 <scope>runtime</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>data-engine-topic-connectors</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>data-manager-api</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>data-manager-topic-connectors</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>data-manager-client</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>data-manager-server</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>data-manager-spring</artifactId>
                 <scope>runtime</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>data-privacy-api</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>data-privacy-client</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>data-privacy-server</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>data-privacy-spring</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>data-science-api</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>data-science-client</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>data-science-server</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>data-science-spring</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>database-integrator-api</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>database-integrator-client</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>database-integrator-server</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>database-integrator-spring</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>display-integrator-api</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>display-integrator-client</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>display-integrator-server</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>display-integrator-spring</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>glossary-canonical-model</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>design-model-archive-base</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>design-model-archives</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>design-model-api</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>design-model-client</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>design-model-server</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>design-model-spring</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>dev-ops-api</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>dev-ops-client</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>dev-ops-server</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>dev-ops-spring</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>digital-architecture-api</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>digital-architecture-client</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>digital-architecture-server</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>digital-architecture-spring</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>digital-service-api</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>digital-service-client</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>digital-service-server</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>digital-service-spring</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>discovery-engine-api</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>discovery-engine-client</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>discovery-engine-server</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>discovery-engine-spring</artifactId>
                 <scope>runtime</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>discovery-service-connectors</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>ffdc-services</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>files-integrator-api</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>files-integrator-client</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>files-integrator-server</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>files-integrator-spring</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>fvt-utilities</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>generic-handlers</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>glossary-view-api</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>glossary-view-client</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>glossary-view-server</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>glossary-view-spring</artifactId>
                 <scope>runtime</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>governance-action-framework</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>governance-action-connectors</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>governance-action-api</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>governance-action-client</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>governance-action-server</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>governance-action-spring</artifactId>
                 <scope>runtime</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>governance-engine-api</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>governance-engine-client</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>governance-engine-topic-connectors</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>governance-engine-server</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>governance-engine-spring</artifactId>
                 <scope>runtime</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>governance-program-api</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>governance-program-client</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>governance-program-server</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>governance-program-spring</artifactId>
                 <scope>runtime</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>graph-repository-connector</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>http-helper</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>inmemory-open-metadata-topic-connector</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>inmemory-repository-connector</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>engine-host-services-api</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>engine-host-services-client</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>engine-host-services-registration</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>engine-host-services-server</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>engine-host-services-spring</artifactId>
                 <scope>runtime</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>integration-daemon-services-api</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>integration-daemon-services-registration</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>integration-daemon-services-client</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>integration-daemon-services-server</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>integration-daemon-services-spring</artifactId>
                 <scope>runtime</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>it-infrastructure-api</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>it-infrastructure-client</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>it-infrastructure-server</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>it-infrastructure-spring</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>kafka-open-metadata-topic-connector</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>metadata-security-apis</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>metadata-security-connectors</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>metadata-security-server</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>multi-tenant</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>ocf-metadata-api</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>ocf-metadata-client</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>ocf-metadata-handlers</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>ocf-metadata-server</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>ocf-metadata-spring</artifactId>
                 <scope>runtime</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>omrs-rest-repository-connector</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>open-connector-framework</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>open-discovery-framework</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>open-lineage-services-api</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>open-lineage-services-server</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>open-lineage-services-spring</artifactId>
                 <scope>runtime</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>open-lineage-services-client</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>open-metadata-archive-file-connector</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>open-metadata-conformance-suite-api</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>open-metadata-conformance-suite-server</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>open-metadata-conformance-suite-spring</artifactId>
                 <scope>runtime</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>open-metadata-security-samples</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>open-metadata-types</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
                         <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>open-metadata-types-utility</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>open-types-test-generator</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>open-metadata-ut</artifactId>
                 <scope>test</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>lineage-integrator-api</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>lineage-integrator-client</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>lineage-integrator-server</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>lineage-integrator-spring</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>organization-integrator-api</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>organization-integrator-client</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>organization-integrator-server</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>organization-integrator-spring</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>platform-services-api</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>platform-services-client</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>platform-services-server</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>platform-services-spring</artifactId>
                 <scope>runtime</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>project-management-api</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>project-management-client</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>project-management-server</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>project-management-spring</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>readonly-repository-connector</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>repository-handler</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>repository-services-apis</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>repository-services-archive-utilities</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>repository-services-client</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>repository-services-implementation</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>repository-services-spring</artifactId>
                 <scope>runtime</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>rest-client-connectors-api</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>rest-client-factory</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>simple-catalogs</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>security-integrator-api</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>security-integrator-client</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>security-integrator-server</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>security-integrator-spring</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>security-manager-api</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>security-manager-client</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>security-manager-topic-connectors</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>security-manager-server</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>security-manager-spring</artifactId>
                 <scope>runtime</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>security-manager-tag-connector</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>security-officer-api</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>security-officer-client</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>security-officer-topic-connectors</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>security-officer-server</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>security-officer-spring</artifactId>
                 <scope>runtime</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>security-officer-tag-connector</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>software-developer-api</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>software-developer-client</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>software-developer-server</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>software-developer-spring</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>spring-rest-client-connector</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>stewardship-action-api</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>stewardship-action-client</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>stewardship-action-server</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>stewardship-action-spring</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>topic-integrator-api</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>topic-integrator-client</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>topic-integrator-server</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>topic-integrator-spring</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>open-lineage-connectors</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>janus-connector</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>basic-file-connector</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>csv-file-connector</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>avro-file-connector</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId> data-folder-connector</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>files-integration-connectors</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>kafka-integration-connector</artifactId>
                 <version>${open-metadata.version}</version>
                 <scope>compile</scope>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>openapi-integration-connector</artifactId>
                 <version>${open-metadata.version}</version>
                 <scope>compile</scope>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>openlineage-integration-connectors</artifactId>
                 <version>${open-metadata.version}</version>
                 <scope>compile</scope>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>subject-area-api</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>subject-area-client</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>subject-area-server</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>subject-area-spring</artifactId>
                 <scope>runtime</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>glossary-author-view-server</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>glossary-author-view-spring</artifactId>
                 <scope>runtime</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>rex-view-api</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>rex-view-server</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>rex-view-spring</artifactId>
                 <scope>runtime</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>tex-view-api</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>tex-view-server</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>tex-view-spring</artifactId>
                 <scope>runtime</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>dino-view-api</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>dino-view-server</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>dino-view-spring</artifactId>
                 <scope>runtime</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>view-generator-connectors</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>data-engine-proxy-connector</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>data-engine-proxy-services-server</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>cassandra-metadata-extractor-connector</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>server-author-view-api</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>server-author-view-server</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>server-author-view-spring</artifactId>
                 <scope>runtime</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>server-chassis-spring</artifactId>
                 <scope>compile</scope>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>open-lineage-janus-connector</artifactId>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>open-connector-archives</artifactId>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>catalog-builder</artifactId>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>asset-create-avro-sample</artifactId>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>asset-create-csv-sample</artifactId>
                 <version>${open-metadata.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>asset-reader-avro-sample</artifactId>
                 <version>${open-metadata.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>asset-reader-csv-sample</artifactId>
                 <version>${open-metadata.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>governance-leadership-sample</artifactId>
                 <version>${open-metadata.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>governance-zone-create-sample</artifactId>
                 <version>${open-metadata.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>subject-area-definition-sample</artifactId>
                 <version>${open-metadata.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>ui-chassis-spring</artifactId>
                 <version>${open-metadata.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>open-metadata-conformance-suite-client</artifactId>
                 <version>${open-metadata.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>egeria</artifactId>
                 <version>${open-metadata.version}</version>
             </dependency>
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>admin-services-config-metadata-server-sample</artifactId>
                 <version>${open-metadata.version}</version>
             </dependency>
             <!-- Main distribution of egeria -->
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>open-metadata-assemblies</artifactId>
                 <version>${open-metadata.version}</version>
                 <type>pom</type>
             </dependency>
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>open-metadata-labs</artifactId>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>governance-services-sample</artifactId>
                 <version>${open-metadata.version}</version>
             </dependency>
@@ -3184,31 +3184,31 @@
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>search-integrator-server</artifactId>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>search-integrator-spring</artifactId>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>search-integrator-client</artifactId>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>search-integrator-api</artifactId>
                 <version>${open-metadata.version}</version>
             </dependency>
 
             <dependency>
-                <groupId>org.odpi.egeria</groupId>
+                <groupId>io.github.tcnt</groupId>
                 <artifactId>elasticsearch-integration-connector</artifactId>
                 <version>${open-metadata.version}</version>
                 <scope>compile</scope>

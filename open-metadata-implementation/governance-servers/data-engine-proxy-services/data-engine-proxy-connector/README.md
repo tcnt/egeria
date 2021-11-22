@@ -1,7 +1,7 @@
 <!-- SPDX-License-Identifier: CC-BY-4.0 -->
 <!-- Copyright Contributors to the ODPi Egeria project. -->
 
-[![javadoc](https://javadoc.io/badge2/org.odpi.egeria/data-engine-proxy-connector/javadoc.svg)](https://javadoc.io/doc/org.odpi.egeria/data-engine-proxy-connector)
+[![javadoc](https://javadoc.io/badge2/io.github.tcnt/data-engine-proxy-connector/javadoc.svg)](https://javadoc.io/doc/io.github.tcnt/data-engine-proxy-connector)
 
 # Data Engine Proxy Connector
 

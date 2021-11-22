@@ -5,7 +5,7 @@
 
 Release 2.1 primarily contains bug fixes and preparatory work for future capabilities.
 
-A full list of changes can be seen [by comparing on github](https://github.com/odpi/egeria/compare/egeria-release-2.0...egeria-release-2.1) .
+A full list of changes can be seen [by comparing on github](https://github.com/tcnt/egeria/compare/egeria-release-2.0...egeria-release-2.1) .
 
 The highlights include:
 

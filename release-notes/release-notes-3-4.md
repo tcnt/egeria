@@ -11,10 +11,10 @@ Details of these and other changes are in the sections that follow.
 
 ## OMAG Server Platform Chassis & Connector Configuration Factory change
 
-[Graph repository connector](https://github.com/odpi/egeria/open-metadata-implementation/adapters/open-connectors/repository-services-connectors/open-metadata-collection-store-connectors/graph-repository-connector/README.md)
-it is not dependency of [Connector configuration factory](https://github.com/odpi/egeria/open-metadata-implementation/adapters/open-connectors/connector-configuration-factory/README.md) 
-anymore therefore will not be included by the build into [ OMAG Server Platform Chassis ](ohttps://github.com/odpi/egeria/open-metadata-implementation/server-chassis/server-chassis-spring/README.md).
-Jar with dependencies of [Graph repository connector](https://github.com/odpi/egeria/open-metadata-implementation/adapters/open-connectors/repository-services-connectors/open-metadata-collection-store-connectors/graph-repository-connector/README.md) 
+[Graph repository connector](https://github.com/tcnt/egeria/open-metadata-implementation/adapters/open-connectors/repository-services-connectors/open-metadata-collection-store-connectors/graph-repository-connector/README.md)
+it is not dependency of [Connector configuration factory](https://github.com/tcnt/egeria/open-metadata-implementation/adapters/open-connectors/connector-configuration-factory/README.md) 
+anymore therefore will not be included by the build into [ OMAG Server Platform Chassis ](ohttps://github.com/tcnt/egeria/open-metadata-implementation/server-chassis/server-chassis-spring/README.md).
+Jar with dependencies of [Graph repository connector](https://github.com/tcnt/egeria/open-metadata-implementation/adapters/open-connectors/repository-services-connectors/open-metadata-collection-store-connectors/graph-repository-connector/README.md) 
 it is now part of the build (maven and gradle) and to run a platform that have server(s) with Egeria graph repository,
 the connector jar have to be placed into classpath. Easy way is to use Spring boot loader.path functionality. Place the 
 jar in the 'lib' folder next to server-chassis-spring jar and run it with -Dloader.path=lib

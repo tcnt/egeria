@@ -7,7 +7,7 @@
 
 In this session, you will be guided on how to make a simple change to the Egeria project.
 This change is to add a new file to the
-[egeria-dojo-postcards directory](https://github.com/odpi/egeria/tree/master/open-metadata-resources/open-metadata-tutorials/egeria-dojo-postcards)
+[egeria-dojo-postcards directory](https://github.com/tcnt/egeria/tree/master/open-metadata-resources/open-metadata-tutorials/egeria-dojo-postcards)
 and link to it in the `README.md` file of the same directory.
 
 ![Making a contribution to Egeria](egeria-dojo-day-2-3-contribution-to-egeria.png)

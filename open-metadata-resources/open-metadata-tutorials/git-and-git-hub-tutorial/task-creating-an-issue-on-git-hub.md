@@ -4,7 +4,7 @@
 # Creating an Issue on GitHub
 
 Every contribution begins with a `git issue`.
-Go to [GitHub](https://github.com/odpi/egeria) and click on the second tab marked `Issues`.
+Go to [GitHub](https://github.com/tcnt/egeria) and click on the second tab marked `Issues`.
 
 ----
 

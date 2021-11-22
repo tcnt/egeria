@@ -96,7 +96,7 @@ The result is that the sample method returns a connector for the first CSV file 
 
 The sample code snippets come from this code sample:
 
-* [CSVFileReader](https://github.com/odpi/egeria/blob/master/open-metadata-resources/open-metadata-samples/access-services-samples/asset-management-samples/asset-reader-csv-sample/src/main/java/org/odpi/openmetadata/accessservices/assetconsumer/samples/readcsvfile/CSVFileReaderSample.java)
+* [CSVFileReader](https://github.com/tcnt/egeria/blob/master/open-metadata-resources/open-metadata-samples/access-services-samples/asset-management-samples/asset-reader-csv-sample/src/main/java/org/odpi/openmetadata/accessservices/assetconsumer/samples/readcsvfile/CSVFileReaderSample.java)
 
 
 ## Advanced topics

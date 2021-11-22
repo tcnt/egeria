@@ -9,16 +9,16 @@
 
 	<parent>
 		<artifactId>analytics-modeling</artifactId>
-		<groupId>org.odpi.egeria</groupId>
+		<groupId>io.github.tcnt</groupId>
 		<version>3.4-SNAPSHOT</version>
 	</parent>
 
 	<modelVersion>4.0.0</modelVersion>
 
 	<scm>
-		<connection>scm:git:git://github.com/odpi/egeria.git</connection>
-		<developerConnection>scm:git:ssh://github.com/odpi/egeria.git</developerConnection>
-		<url>http://github.com/odpi/egeria/tree/master</url>
+		<connection>scm:git:git://github.com/tcnt/egeria.git</connection>
+		<developerConnection>scm:git:ssh://github.com/tcnt/egeria.git</developerConnection>
+		<url>http://github.com/tcnt/egeria/tree/master</url>
 	</scm>
 
 	<name>Analytics Modeling OMAS Spring</name>
@@ -36,12 +36,12 @@
 		</dependency>
 
 		<dependency>
-			<groupId>org.odpi.egeria</groupId>
+			<groupId>io.github.tcnt</groupId>
 			<artifactId>analytics-modeling-server</artifactId>
 		</dependency>
 
 		<dependency>
-			<groupId>org.odpi.egeria</groupId>
+			<groupId>io.github.tcnt</groupId>
 			<artifactId>analytics-modeling-api</artifactId>
 		</dependency>
 
@@ -76,12 +76,12 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>org.odpi.egeria</groupId>
+			<groupId>io.github.tcnt</groupId>
 			<artifactId>ffdc-services</artifactId>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>org.odpi.egeria</groupId>
+			<groupId>io.github.tcnt</groupId>
 			<artifactId>audit-log-framework</artifactId>
 			<scope>test</scope>
 		</dependency>
