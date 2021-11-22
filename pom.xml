@@ -9,9 +9,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <scm>
-        <connection>scm:git:git://github.com/odpi/egeria.git</connection>
-        <developerConnection>scm:git:ssh://github.com/odpi/egeria.git</developerConnection>
-        <url>http://github.com/odpi/egeria/tree/master</url>
+        <connection>scm:git:git://github.com/tcnt/egeria.git</connection>
+        <developerConnection>scm:git:ssh://github.com/tcnt/egeria.git</developerConnection>
+        <url>http://github.com/tcnt/egeria/tree/master</url>
     </scm>
 
     <name>Egeria</name>
@@ -20,7 +20,7 @@
         conformance tests for open metadata and governance.
     </description>
 
-    <groupId>org.odpi.egeria</groupId>
+    <groupId>io.github.tcnt</groupId>
     <artifactId>egeria</artifactId>
     <version>3.4-SNAPSHOT</version>
 
@@ -46,7 +46,7 @@
 
     <issueManagement>
         <system>GitHub</system>
-        <url>https://github.com/odpi/egeria/issues</url>
+        <url>https://github.com/tcnt/egeria/issues</url>
     </issueManagement>
 
     <inceptionYear>2018</inceptionYear>
@@ -4013,7 +4013,7 @@
                 <repository>
                     <id>github</id>
                     <name>GitHub Packages</name>
-                    <url>https://maven.pkg.github.com/odpi/egeria</url>
+                    <url>https://maven.pkg.github.com/tcnt/egeria</url>
                 </repository>
             </distributionManagement>
         </profile>
