@@ -47,10 +47,10 @@ jobs:
           gpg-private-key: ${{ secrets.OSSRH_GPG_PRIVATE_KEY }}
           gpg-passphrase: MAVEN_GPG_PASSPHRASE
       # Normal build (in future may also run reports (site)) -
-      - name: Build with Maven and publish to oss.sonatype.org
+      - name: Build with Maven and publish to s01.oss.sonatype.org
         # See https://github.com/actions/toolkit/issues/231 requires parms using . to be quoted
         run: 'mvn -B -DuseMavenCentral clean deploy'
-        # Needed for publishing -- note we push to a staging area, login to oss.sonatype.org to
+        # Needed for publishing -- note we push to a staging area, login to s01.oss.sonatype.org to
         # verify (close) the repository & release
         env:
           MAVEN_USERNAME: ${{ secrets.OSSRH_USERNAME }}
@@ -59,7 +59,7 @@ jobs:
       - name: Publish container images to quay.io
         # See https://github.com/actions/toolkit/issues/231 requires parms using . to be quoted
         run: 'cd open-metadata-resources/open-metadata-deployment/docker && mvn -B -DuseMavenCentral -Ddocker "-Ddocker.taglatest" "-Ddocker.repo=tcnthomas" "-Ddocker.registry=quay.io" "-Ddocker.images=core" clean deploy'
-        # Needed for publishing -- note we push to a staging area, login to oss.sonatype.org to
+        # Needed for publishing -- note we push to a staging area, login to s01.oss.sonatype.org to
         # verify (close) the repository & release
         env:
           MAVEN_USERNAME: ${{ secrets.OSSRH_USERNAME }}
@@ -69,7 +69,7 @@ jobs:
       - name: Publish container images to docker.io
         # See https://github.com/actions/toolkit/issues/231 requires parms using . to be quoted
         run: 'cd open-metadata-resources/open-metadata-deployment/docker && mvn -B -DuseMavenCentral -Ddocker "-Ddocker.taglatest" "-Ddocker.repo=tcnthomas" "-Ddocker.registry=docker.io" "-Ddocker.images=core" clean deploy'
-        # Needed for publishing -- note we push to a staging area, login to oss.sonatype.org to
+        # Needed for publishing -- note we push to a staging area, login to s01.oss.sonatype.org to
         # verify (close) the repository & release
         env:
           MAVEN_USERNAME: ${{ secrets.OSSRH_USERNAME }}
