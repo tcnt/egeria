@@ -56,25 +56,37 @@ jobs:
           MAVEN_USERNAME: ${{ secrets.OSSRH_USERNAME }}
           MAVEN_PASSWORD: ${{ secrets.OSSRH_TOKEN }}
           MAVEN_GPG_PASSPHRASE: ${{ secrets.OSSRH_GPG_PASSPHRASE }}
-      - name: Publish container images to quay.io
-        # See https://github.com/actions/toolkit/issues/231 requires parms using . to be quoted
-        run: 'cd open-metadata-resources/open-metadata-deployment/docker && mvn -B -DuseMavenCentral -Ddocker "-Ddocker.taglatest" "-Ddocker.repo=tcnthomas" "-Ddocker.registry=quay.io" "-Ddocker.images=core" clean deploy'
-        # Needed for publishing -- note we push to a staging area, login to s01.oss.sonatype.org to
-        # verify (close) the repository & release
-        env:
-          MAVEN_USERNAME: ${{ secrets.OSSRH_USERNAME }}
-          MAVEN_PASSWORD: ${{ secrets.OSSRH_TOKEN }}
-          MAVEN_GPG_PASSPHRASE: ${{ secrets.OSSRH_GPG_PASSPHRASE }}
-      # Push docker images to docker.io
-      - name: Publish container images to docker.io
-        # See https://github.com/actions/toolkit/issues/231 requires parms using . to be quoted
-        run: 'cd open-metadata-resources/open-metadata-deployment/docker && mvn -B -DuseMavenCentral -Ddocker "-Ddocker.taglatest" "-Ddocker.repo=tcnthomas" "-Ddocker.registry=docker.io" "-Ddocker.images=core" clean deploy'
-        # Needed for publishing -- note we push to a staging area, login to s01.oss.sonatype.org to
-        # verify (close) the repository & release
-        env:
-          MAVEN_USERNAME: ${{ secrets.OSSRH_USERNAME }}
-          MAVEN_PASSWORD: ${{ secrets.OSSRH_TOKEN }}
-          MAVEN_GPG_PASSPHRASE: ${{ secrets.OSSRH_GPG_PASSPHRASE }}
+      - name: Set Release version env variable
+        run: |
+          echo "VERSION=$(mvn help:evaluate -Dexpression=project.version -q -DforceStdout)" >> $GITHUB_ENV
+      # Build and publish - but only for master
+      - name: Build and push (main merge)
+        uses: docker/build-push-action@v2
+        with:
+          push: true 
+          tags: tcnthomas/egeria:${{ env.VERSION }}, tcnthomas/egeria:latest, quay.io/tcnthomas/egeria:${{ env.VERSION }}, quay.io/tcnthomas/egeria:latest
+          context: open-metadata-resources/open-metadata-deployment/docker/egeria
+          file: ./Dockerfile
+          platforms: linux/amd64,linux/arm64
+          
+      - name: Build and push (main merge)
+        uses: docker/build-push-action@v2
+        with:
+          push: true 
+          tags: tcnthomas/egeria-configure:${{ env.VERSION }}, tcnthomas/egeria-configure:latest, quay.io/tcnthomas/egeria-configure:${{ env.VERSION }}, quay.io/tcnthomas/egeria-configure:latest
+          context: open-metadata-resources/open-metadata-deployment/docker/configure
+          file: ./Dockerfile
+          platforms: linux/amd64,linux/arm64
+          
+      - name: Build and push (main merge)
+        uses: docker/build-push-action@v2
+        with:
+          push: true 
+          tags: tcnthomas/jupyter:${{ env.VERSION }}, tcnthomas/jupyter:latest, quay.io/tcnthomas/jupyter:${{ env.VERSION }}, quay.io/tcnthomas/jupyter:latest
+          context: open-metadata-resources/open-metadata-deployment/docker/jupyter
+          file: ./Dockerfile
+          platforms: linux/amd64,linux/arm64          
+          
       # Mostly for verification - not published to the release itself for now
       - name: Upload assemblies
         uses: actions/upload-artifact@v2
