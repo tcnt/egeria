@@ -47,44 +47,54 @@ jobs:
           gpg-private-key: ${{ secrets.OSSRH_GPG_PRIVATE_KEY }}
           gpg-passphrase: MAVEN_GPG_PASSPHRASE
       # Normal build (in future may also run reports (site)) -
-      - name: Build with Maven and publish to s01.oss.sonatype.org
+      - name: Build with Maven and publish to oss.sonatype.org
         # See https://github.com/actions/toolkit/issues/231 requires parms using . to be quoted
         run: 'mvn -B -DuseMavenCentral clean deploy'
-        # Needed for publishing -- note we push to a staging area, login to s01.oss.sonatype.org to
+        # Needed for publishing -- note we push to a staging area, login to oss.sonatype.org to
         # verify (close) the repository & release
         env:
           MAVEN_USERNAME: ${{ secrets.OSSRH_USERNAME }}
           MAVEN_PASSWORD: ${{ secrets.OSSRH_TOKEN }}
           MAVEN_GPG_PASSPHRASE: ${{ secrets.OSSRH_GPG_PASSPHRASE }}
+      # QEMU is needed for ARM64 build for egeria-configure    
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v1
+        
       - name: Set Release version env variable
         run: |
           echo "VERSION=$(mvn help:evaluate -Dexpression=project.version -q -DforceStdout)" >> $GITHUB_ENV
-      # Build and publish - but only for master
-      - name: Build and push (main merge)
+      - name: Copy the distribution content to be used in docker copy command
+        run: |
+          mkdir -p ./open-metadata-resources/open-metadata-deployment/docker/egeria/target/assembly
+          cp -r open-metadata-distribution/open-metadata-assemblies/target/egeria-${{ env.VERSION }}-distribution/egeria-omag-${{ env.VERSION }}/. open-metadata-resources/open-metadata-deployment/docker/egeria/target/assembly
+          
+      # Publish container images(egeria) to quay.io and docker.io
+      - name: Build and push(egeria) to quay.io and docker.io
         uses: docker/build-push-action@v2
         with:
           push: true 
           tags: tcnthomas/egeria:${{ env.VERSION }}, tcnthomas/egeria:latest, quay.io/tcnthomas/egeria:${{ env.VERSION }}, quay.io/tcnthomas/egeria:latest
-          context: open-metadata-resources/open-metadata-deployment/docker/egeria
-          file: ./Dockerfile
+          context: ./open-metadata-resources/open-metadata-deployment/docker/egeria
           platforms: linux/amd64,linux/arm64
           
-      - name: Build and push (main merge)
+      - name: Build and push(egeria-configure) to quay.io and docker.io
         uses: docker/build-push-action@v2
         with:
           push: true 
           tags: tcnthomas/egeria-configure:${{ env.VERSION }}, tcnthomas/egeria-configure:latest, quay.io/tcnthomas/egeria-configure:${{ env.VERSION }}, quay.io/tcnthomas/egeria-configure:latest
-          context: open-metadata-resources/open-metadata-deployment/docker/configure
-          file: ./Dockerfile
+          context: ./open-metadata-resources/open-metadata-deployment/docker/configure
           platforms: linux/amd64,linux/arm64
+      - name: Copy the deploy content to be used in docker copy command
+        run: |
+          mkdir -p ./open-metadata-resources/open-metadata-deployment/docker/jupyter/target/assembly
+          cp -r open-metadata-distribution/open-metadata-assemblies/target/egeria-${{ env.VERSION }}-deploy/egeria-deploy-${{ env.VERSION }}/. open-metadata-resources/open-metadata-deployment/docker/jupyter/target/assembly
           
-      - name: Build and push (main merge)
+      - name: Build and push(jupyter) to quay.io and docker.io
         uses: docker/build-push-action@v2
         with:
           push: true 
           tags: tcnthomas/jupyter:${{ env.VERSION }}, tcnthomas/jupyter:latest, quay.io/tcnthomas/jupyter:${{ env.VERSION }}, quay.io/tcnthomas/jupyter:latest
-          context: open-metadata-resources/open-metadata-deployment/docker/jupyter
-          file: ./Dockerfile
+          context: ./open-metadata-resources/open-metadata-deployment/docker/jupyter
           platforms: linux/amd64,linux/arm64          
           
       # Mostly for verification - not published to the release itself for now
