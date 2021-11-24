@@ -58,7 +58,11 @@ jobs:
         with:
           username: ${{ secrets.DOCKER_HUB_USERNAME }}
           password: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
-
+          
+      # QEMU is needed for ARM64 build for egeria-configure    
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v1
+        
       - name: Set Release version env variable
         run: |
           echo "VERSION=$(mvn help:evaluate -Dexpression=project.version -q -DforceStdout)" >> $GITHUB_ENV
@@ -67,7 +71,7 @@ jobs:
           mkdir -p ./open-metadata-resources/open-metadata-deployment/docker/egeria/target/assembly
           cp -r open-metadata-distribution/open-metadata-assemblies/target/egeria-${{ env.VERSION }}-distribution/egeria-omag-${{ env.VERSION }}/. open-metadata-resources/open-metadata-deployment/docker/egeria/target/assembly
           
-      # Build and publish - but only for master
+      # Build and publish(egeria) - but only for master
       - name: Build and push (main merge)
         uses: docker/build-push-action@v2
         with:
@@ -76,7 +80,7 @@ jobs:
           context: ./open-metadata-resources/open-metadata-deployment/docker/egeria
           platforms: linux/amd64,linux/arm64
           
-      - name: Build and push (main merge)
+      - name: Build and push(egeria-configure) (main merge)
         uses: docker/build-push-action@v2
         with:
           push: true 
@@ -88,7 +92,7 @@ jobs:
           mkdir -p ./open-metadata-resources/open-metadata-deployment/docker/jupyter/target/assembly
           cp -r open-metadata-distribution/open-metadata-assemblies/target/egeria-${{ env.VERSION }}-deploy/egeria-deploy-${{ env.VERSION }}/. open-metadata-resources/open-metadata-deployment/docker/jupyter/target/assembly
           
-      - name: Build and push (main merge)
+      - name: Build and push(jupyter) (main merge)
         uses: docker/build-push-action@v2
         with:
           push: true 
