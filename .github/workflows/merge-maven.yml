@@ -65,7 +65,7 @@ jobs:
       - name: Copy the distribution content to be used in docker copy command
         run: |
           mkdir -p ./open-metadata-resources/open-metadata-deployment/docker/egeria/target/assembly
-          cp -r open-metadata-distribution/open-metadata-assemblies/target/egeria-${{ env.VERSION }}-distribution/egeria-omag-${{ env.VERSION }}/. open-metadata-resources/open-metadata-deployment/docker/egeria/target/assemblies
+          cp -r open-metadata-distribution/open-metadata-assemblies/target/egeria-${{ env.VERSION }}-distribution/egeria-omag-${{ env.VERSION }}/. open-metadata-resources/open-metadata-deployment/docker/egeria/target/assembly
           
       # Build and publish - but only for master
       - name: Build and push (main merge)
@@ -83,10 +83,10 @@ jobs:
           tags: tcnthomas/egeria-configure:${{ env.VERSION }}, tcnthomas/egeria-configure:latest, quay.io/tcnthomas/egeria-configure:${{ env.VERSION }}, quay.io/tcnthomas/egeria-configure:latest
           context: ./open-metadata-resources/open-metadata-deployment/docker/configure
           platforms: linux/amd64,linux/arm64
-      - name: Copy the distribution content to be used in docker copy command
+      - name: Copy the deploy content to be used in docker copy command
         run: |
           mkdir -p ./open-metadata-resources/open-metadata-deployment/docker/jupyter/target/assembly
-          cp -r open-metadata-distribution/open-metadata-assemblies/target/egeria-${{ env.VERSION }}-deploy/egeria-deploy-${{ env.VERSION }}/. open-metadata-resources/open-metadata-deployment/docker/jupyter/target/assemblies
+          cp -r open-metadata-distribution/open-metadata-assemblies/target/egeria-${{ env.VERSION }}-deploy/egeria-deploy-${{ env.VERSION }}/. open-metadata-resources/open-metadata-deployment/docker/jupyter/target/assembly
           
       - name: Build and push (main merge)
         uses: docker/build-push-action@v2
