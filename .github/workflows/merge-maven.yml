@@ -70,7 +70,6 @@ jobs:
           push: true 
           tags: tcnthomas/egeria:${{ env.VERSION }}, tcnthomas/egeria:latest, quay.io/tcnthomas/egeria:${{ env.VERSION }}, quay.io/tcnthomas/egeria:latest
           context: ./open-metadata-resources/open-metadata-deployment/docker/egeria
-          file: ./Dockerfile
           platforms: linux/amd64,linux/arm64
           
       - name: Build and push (main merge)
@@ -79,7 +78,6 @@ jobs:
           push: true 
           tags: tcnthomas/egeria-configure:${{ env.VERSION }}, tcnthomas/egeria-configure:latest, quay.io/tcnthomas/egeria-configure:${{ env.VERSION }}, quay.io/tcnthomas/egeria-configure:latest
           context: ./open-metadata-resources/open-metadata-deployment/docker/configure
-          file: ./Dockerfile
           platforms: linux/amd64,linux/arm64
           
       - name: Build and push (main merge)
@@ -88,7 +86,6 @@ jobs:
           push: true 
           tags: tcnthomas/jupyter:${{ env.VERSION }}, tcnthomas/jupyter:latest, quay.io/tcnthomas/jupyter:${{ env.VERSION }}, quay.io/tcnthomas/jupyter:latest
           context: ./open-metadata-resources/open-metadata-deployment/docker/jupyter
-          file: ./Dockerfile
           platforms: linux/amd64,linux/arm64
           
       # Mostly for verification - not published to the release itself for now
