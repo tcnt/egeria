@@ -56,47 +56,47 @@ jobs:
           MAVEN_USERNAME: ${{ secrets.OSSRH_USERNAME }}
           MAVEN_PASSWORD: ${{ secrets.OSSRH_TOKEN }}
           MAVEN_GPG_PASSPHRASE: ${{ secrets.OSSRH_GPG_PASSPHRASE }}
-      # QEMU is needed for ARM64 build for egeria-configure    
+      # QEMU is needed for ARM64 build for egeria-configure
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v1
-        
+
       - name: Set Release version env variable
         run: |
           echo "VERSION=$(mvn help:evaluate -Dexpression=project.version -q -DforceStdout)" >> $GITHUB_ENV
       - name: Copy the distribution content to be used in docker copy command
         run: |
           mkdir -p ./open-metadata-resources/open-metadata-deployment/docker/egeria/target/assembly
-          cp -r open-metadata-distribution/open-metadata-assemblies/target/egeria-${{ env.VERSION }}-distribution/egeria-omag-${{ env.VERSION }}/. open-metadata-resources/open-metadata-deployment/docker/egeria/target/assembly
-          
+          ln -s open-metadata-distribution/open-metadata-assemblies/target/egeria-${{ env.VERSION }}-distribution/egeria-omag-${{ env.VERSION }}/. open-metadata-resources/open-metadata-deployment/docker/egeria/target/assembly
+
       # Publish container images(egeria) to quay.io and docker.io
       - name: Build and push(egeria) to quay.io and docker.io
         uses: docker/build-push-action@v2
         with:
-          push: true 
+          push: true
           tags: tcnthomas/egeria:${{ env.VERSION }}, tcnthomas/egeria:latest, quay.io/tcnthomas/egeria:${{ env.VERSION }}, quay.io/tcnthomas/egeria:latest
           context: ./open-metadata-resources/open-metadata-deployment/docker/egeria
           platforms: linux/amd64,linux/arm64
-          
+      # Publish container images(egeria-configure) to quay.io and docker.io
       - name: Build and push(egeria-configure) to quay.io and docker.io
         uses: docker/build-push-action@v2
         with:
-          push: true 
+          push: true
           tags: tcnthomas/egeria-configure:${{ env.VERSION }}, tcnthomas/egeria-configure:latest, quay.io/tcnthomas/egeria-configure:${{ env.VERSION }}, quay.io/tcnthomas/egeria-configure:latest
           context: ./open-metadata-resources/open-metadata-deployment/docker/configure
           platforms: linux/amd64,linux/arm64
       - name: Copy the deploy content to be used in docker copy command
         run: |
           mkdir -p ./open-metadata-resources/open-metadata-deployment/docker/jupyter/target/assembly
-          cp -r open-metadata-distribution/open-metadata-assemblies/target/egeria-${{ env.VERSION }}-deploy/egeria-deploy-${{ env.VERSION }}/. open-metadata-resources/open-metadata-deployment/docker/jupyter/target/assembly
-          
+          ln -s open-metadata-distribution/open-metadata-assemblies/target/egeria-${{ env.VERSION }}-deploy/egeria-deploy-${{ env.VERSION }}/. open-metadata-resources/open-metadata-deployment/docker/jupyter/target/assembly
+      # Publish container images(jupyter) to quay.io and docker.io
       - name: Build and push(jupyter) to quay.io and docker.io
         uses: docker/build-push-action@v2
         with:
-          push: true 
+          push: true
           tags: tcnthomas/jupyter:${{ env.VERSION }}, tcnthomas/jupyter:latest, quay.io/tcnthomas/jupyter:${{ env.VERSION }}, quay.io/tcnthomas/jupyter:latest
           context: ./open-metadata-resources/open-metadata-deployment/docker/jupyter
-          platforms: linux/amd64,linux/arm64          
-          
+          platforms: linux/amd64,linux/arm64
+
       # Mostly for verification - not published to the release itself for now
       - name: Upload assemblies
         uses: actions/upload-artifact@v2
