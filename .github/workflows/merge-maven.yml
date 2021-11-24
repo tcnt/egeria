@@ -64,7 +64,7 @@ jobs:
           echo "VERSION=$(mvn help:evaluate -Dexpression=project.version -q -DforceStdout)" >> $GITHUB_ENV
       - name: Copy the distribution content to be used in docker copy command
         run: |
-          mkdir -p ./open-metadata-resources/open-metadata-deployment/docker/egeria/target/assemblies
+          mkdir -p ./open-metadata-resources/open-metadata-deployment/docker/egeria/target/assembly
           cp -r open-metadata-distribution/open-metadata-assemblies/target/egeria-${{ env.VERSION }}-distribution/egeria-omag-${{ env.VERSION }}/. open-metadata-resources/open-metadata-deployment/docker/egeria/target/assemblies
           
       # Build and publish - but only for master
@@ -85,7 +85,7 @@ jobs:
           platforms: linux/amd64,linux/arm64
       - name: Copy the distribution content to be used in docker copy command
         run: |
-          mkdir -p ./open-metadata-resources/open-metadata-deployment/docker/jupyter/target/assemblies
+          mkdir -p ./open-metadata-resources/open-metadata-deployment/docker/jupyter/target/assembly
           cp -r open-metadata-distribution/open-metadata-assemblies/target/egeria-${{ env.VERSION }}-deploy/egeria-deploy-${{ env.VERSION }}/. open-metadata-resources/open-metadata-deployment/docker/jupyter/target/assemblies
           
       - name: Build and push (main merge)
